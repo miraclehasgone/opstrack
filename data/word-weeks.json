@@ -1,0 +1,2406 @@
+[
+  {
+    "week": 1,
+    "phase": 1,
+    "date_label": "Неделя 1  |  7 сентября — 13 сентября 2026",
+    "title": "Старт: как устроена сеть и как с ней работать",
+    "difficulty": "БАЗА",
+    "start_date": "2026-09-07",
+    "end_date": "2026-09-13",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №1 «Подключение» + статья «Подключение к оборудованию Cisco».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2.5 «Сети»: OSI/TCP-IP, ARP, ICMP, ping. После LinkMeUp пройти эти пункты как чек-лист.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс Практикум, расширенный курс: доп. модуль «Сетевые технологии» — уроки по сетевой модели/TCP-IP/ARP/ICMP, если они доступны в вашей версии интерфейса.",
+        "requirement_interpretation": "conditional_availability",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №1 «Подключение»; понять консоль/CLI, интерфейсы и базовую логику сетевого оборудования.",
+      "• Модели OSI и TCP/IP: зачем нужны уровни, инкапсуляция, PDU.",
+      "• Ethernet, MAC-адрес, broadcast domain, collision domain; базово ARP и ICMP.",
+      "• Подготовить конспект терминов: frame / packet / segment, L2/L3, port, interface."
+    ],
+    "practice": [
+      "• Поставить Packet Tracer (или другой легальный симулятор) и собрать 2 ПК + 1 коммутатор.",
+      "• Проверить ping, ARP-таблицу, MAC-таблицу; нарисовать путь кадра.",
+      "• Завести файл NETWORK_NOTES.md — будущий живой справочник."
+    ],
+    "outcome": "После недели ты должен уметь словами объяснить, что происходит между двумя ПК в одной L2-сети.",
+    "source_table_index": 5
+  },
+  {
+    "week": 2,
+    "phase": 1,
+    "date_label": "Неделя 2  |  14 сентября — 20 сентября 2026",
+    "title": "Коммутация: MAC, Ethernet и таблица CAM",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2026-09-14",
+    "end_date": "2026-09-20",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №2 «Коммутация» — Ethernet, MAC, обучение таблицы, flooding.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2.5: OSI, особое внимание L2; ARP. Повторить после видео и закрыть вопросы по MAC/ARP.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, доп. «Сетевые технологии»: Ethernet/MAC/L2, если такой урок есть в вашей версии модуля.",
+        "requirement_interpretation": "conditional_availability",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №2 «Коммутация».",
+      "• Как коммутатор обучается MAC-адресам; unknown unicast, broadcast, flooding.",
+      "• Duplex, speed, auto-negotiation; базовые причины L1/L2-проблем.",
+      "• Разобрать различия hub / switch / router."
+    ],
+    "practice": [
+      "• Собрать сеть из 2 коммутаторов и 4 ПК.",
+      "• Проверить обучение MAC после ping; очистить таблицу и повторить.",
+      "• Сымитировать ошибку подключения и описать траблшутинг от L1 к L2."
+    ],
+    "outcome": "Уметь читать MAC-таблицу и объяснять, почему кадр ушёл именно в этот порт.",
+    "source_table_index": 6
+  },
+  {
+    "week": 3,
+    "phase": 1,
+    "date_label": "Неделя 3  |  21 сентября — 27 сентября 2026",
+    "title": "VLAN, access/trunk и 802.1Q",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2026-09-21",
+    "end_date": "2026-09-27",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: продолжить №2 «Коммутация» — VLAN, access/trunk, 802.1Q, native VLAN.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: В Roadmap 2.5 отдельного блока VLAN нет — повторно открывать Roadmap не нужно.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: если в доп. сетевом модуле есть VLAN/802.1Q — пройти; если нет, на этой неделе Яндекс не нужен.",
+        "requirement_interpretation": "conditional_availability",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Продолжение темы коммутации: VLAN как логическая сегментация L2.",
+      "• Access-порт, trunk, tagged/untagged кадры, native VLAN, 802.1Q.",
+      "• Зачем VLAN нужен оператору, серверной инфраструктуре и виртуализации.",
+      "• Понять связь VLAN ↔ broadcast domain."
+    ],
+    "practice": [
+      "• Создать VLAN 10/20/30, разнести ПК по VLAN.",
+      "• Настроить trunk между коммутаторами; проверить изоляцию.",
+      "• Специально сломать allowed VLAN/native VLAN и найти ошибку."
+    ],
+    "outcome": "Уметь уверенно объяснить access vs trunk и найти типовую VLAN-ошибку.",
+    "source_table_index": 7
+  },
+  {
+    "week": 4,
+    "phase": 1,
+    "date_label": "Неделя 4  |  28 сентября — 4 октября 2026",
+    "title": "IP-адресация, подсети и статическая маршрутизация",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2026-09-28",
+    "end_date": "2026-10-04",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №3 «Статическая маршрутизация».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2.5: маска подсети + утилиты ping, traceroute/mtr. Связать с routing table и next-hop.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, доп. «Сетевые технологии»: IP-адресация/подсети/маршрутизация, если урок доступен.",
+        "requirement_interpretation": "conditional_availability",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №3 «Маршрутизация».",
+      "• IPv4: network/host part, маска, CIDR, gateway, subnetting.",
+      "• Routing table, connected/static route, longest prefix match, next-hop.",
+      "• Inter-VLAN routing и L3-коммутатор."
+    ],
+    "practice": [
+      "• Собрать 3 подсети и маршрутизатор между ними.",
+      "• Настроить inter-VLAN routing и статические маршруты.",
+      "• Сделать минимум 15 задач по подсетям /24…/30 и проверить себя."
+    ],
+    "outcome": "Без калькулятора понимать /24, /25, /26, /27, /28, /29, /30 и читать таблицу маршрутизации.",
+    "source_table_index": 8
+  },
+  {
+    "week": 5,
+    "phase": 1,
+    "date_label": "Неделя 5  |  5 октября — 11 октября 2026",
+    "title": "STP/RSTP и защита от L2-петель",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2026-10-05",
+    "end_date": "2026-10-11",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №4 «L2 и STP».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №4 «STP».",
+      "• Почему L2-петля опасна: broadcast storm, MAC flapping.",
+      "• Root bridge, root/designated/alternate ports, BPDU, cost, port states.",
+      "• RSTP, PortFast/edge, BPDU Guard — на уровне назначения."
+    ],
+    "practice": [
+      "• Собрать треугольник из 3 коммутаторов.",
+      "• Найти root bridge и заблокированный порт; изменить root priority.",
+      "• Отключить активный линк и наблюдать перестройку STP."
+    ],
+    "outcome": "Уметь по топологии предсказать root и объяснить, какой линк будет резервным.",
+    "source_table_index": 9
+  },
+  {
+    "week": 6,
+    "phase": 1,
+    "date_label": "Неделя 6  |  12 октября — 18 октября 2026",
+    "title": "ACL, NAT и PAT",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2026-10-12",
+    "end_date": "2026-10-18",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №5 «NAT и ACL».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №5 «ACL и NAT».",
+      "• Standard/extended ACL — концептуально; порядок правил и implicit deny.",
+      "• Source/Destination NAT, static NAT, dynamic NAT, PAT.",
+      "• Где NAT помогает, а где мешает диагностике."
+    ],
+    "practice": [
+      "• Собрать LAN → router → условный Internet.",
+      "• Настроить PAT и несколько ACL; проверить разрешённый/запрещённый трафик.",
+      "• Сломать порядок ACL и объяснить симптом."
+    ],
+    "outcome": "Понимать, как меняются адреса при NAT и где искать проблему доступа.",
+    "source_table_index": 10
+  },
+  {
+    "week": 7,
+    "phase": 1,
+    "date_label": "Неделя 7  |  19 октября — 25 октября 2026",
+    "title": "Динамическая маршрутизация и OSPF",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-25",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №6 «Динамическая маршрутизация».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №6 «OSPF / динамическая маршрутизация».",
+      "• Distance-vector vs link-state; metric, convergence, adjacency.",
+      "• OSPF: Router ID, neighbor, area, LSDB, cost, DR/BDR — базово.",
+      "• Когда static route лучше динамики и наоборот."
+    ],
+    "practice": [
+      "• Собрать 3–4 роутера с OSPF area 0.",
+      "• Проверить neighbors и routes; изменить cost и увидеть смену пути.",
+      "• Сломать area/network statement и восстановить adjacency."
+    ],
+    "outcome": "Уметь объяснить путь появления OSPF-маршрута в RIB.",
+    "source_table_index": 11
+  },
+  {
+    "week": 8,
+    "phase": 1,
+    "date_label": "Неделя 8  |  26 октября — 1 ноября 2026",
+    "title": "VPN: GRE и IPsec",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2026-10-26",
+    "end_date": "2026-11-01",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №7 «VPN».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №7 «VPN».",
+      "• Зачем туннели; underlay/overlay.",
+      "• GRE: что даёт и чего не даёт; IPsec: confidentiality/integrity/authentication.",
+      "• Site-to-site VPN, GRE over IPsec, DMVPN — обзорно."
+    ],
+    "practice": [
+      "• Собрать простую GRE-топологию в лаборатории, если симулятор поддерживает.",
+      "• Нарисовать headers до/после инкапсуляции.",
+      "• Составить troubleshooting checklist: reachability → tunnel → encryption."
+    ],
+    "outcome": "Отличать «туннель» от «шифрования» и понимать underlay/overlay.",
+    "source_table_index": 12
+  },
+  {
+    "week": 9,
+    "phase": 1,
+    "date_label": "Неделя 9  |  2 ноября — 8 ноября 2026",
+    "title": "BGP и IP SLA",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-11-02",
+    "end_date": "2026-11-08",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №8 «BGP и IP SLA».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №8 «BGP и IP SLA».",
+      "• AS, eBGP/iBGP, path-vector, attributes; best path — на базовом уровне.",
+      "• Почему BGP не IGP; политика важнее «кратчайшего пути».",
+      "• IP SLA / tracking как способ проверять доступность и переключать маршрут."
+    ],
+    "practice": [
+      "• Собрать 2–3 AS и поднять eBGP.",
+      "• Посмотреть AS_PATH и next-hop; изменить выбор пути простым атрибутом.",
+      "• Смоделировать основной/резервный маршрут."
+    ],
+    "outcome": "Читать базовый BGP route и понимать, почему выбран этот путь.",
+    "source_table_index": 13
+  },
+  {
+    "week": 10,
+    "phase": 1,
+    "date_label": "Неделя 10  |  9 ноября — 15 ноября 2026",
+    "title": "Multicast: IGMP и PIM",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-11-09",
+    "end_date": "2026-11-15",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №9 «Мультикаст».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №9 «Мультикаст».",
+      "• Unicast/broadcast/multicast; group membership.",
+      "• IGMP, PIM, RP, RPT/SPT — концептуально.",
+      "• IGMP Snooping на L2."
+    ],
+    "practice": [
+      "• Нарисовать дерево доставки multicast для нескольких receivers.",
+      "• Если лаборатория позволяет — проверить IGMP/PIM; иначе разобрать pcap/схему.",
+      "• Составить сравнительную таблицу unicast/broadcast/multicast."
+    ],
+    "outcome": "Не обязательно уметь строить сложный PIM, но нужно понимать модель доставки.",
+    "source_table_index": 14
+  },
+  {
+    "week": 11,
+    "phase": 1,
+    "date_label": "Неделя 11  |  16 ноября — 22 ноября 2026",
+    "title": "MPLS: labels, LDP и forwarding",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-11-16",
+    "end_date": "2026-11-22",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №10 «Базовый MPLS».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №10 «Базовый MPLS».",
+      "• FEC, label, LER/LSR, push/swap/pop; LFIB vs обычная IP forwarding.",
+      "• LDP — зачем он нужен; PHP — концептуально.",
+      "• Связать MPLS с тем, что ты видишь в операторской сети."
+    ],
+    "practice": [
+      "• Нарисовать IP forwarding и MPLS forwarding одного и того же потока.",
+      "• На доступной лаборатории/выводах Junos разобрать labels и next-hop.",
+      "• Составить шпаргалку «push / swap / pop»."
+    ],
+    "outcome": "Уметь читать маршрут с Push label и объяснять смысл метки.",
+    "source_table_index": 15
+  },
+  {
+    "week": 12,
+    "phase": 1,
+    "date_label": "Неделя 12  |  23 ноября — 29 ноября 2026",
+    "title": "MPLS L3VPN и VRF",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-11-23",
+    "end_date": "2026-11-29",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №11 «MPLS L3VPN».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №11 «MPLS L3VPN».",
+      "• P/PE/CE, VRF, RD, RT, MP-BGP — по назначению и связи между ними.",
+      "• Почему одинаковые клиентские префиксы могут жить в одной операторской сети.",
+      "• Как L3VPN связывает клиентские площадки."
+    ],
+    "practice": [
+      "• Нарисовать CE–PE–P–PE–CE и путь пакета.",
+      "• Разобрать на реальном/учебном Junos вывод route table VRF и MPLS labels.",
+      "• Сделать таблицу RD vs RT vs VRF."
+    ],
+    "outcome": "Уметь объяснить MPLS L3VPN без привязки к конкретному вендору.",
+    "source_table_index": 16
+  },
+  {
+    "week": 13,
+    "phase": 1,
+    "date_label": "Неделя 13  |  30 ноября — 6 декабря 2026",
+    "title": "MPLS L2VPN / EVPN — обзор и сравнение",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-11-30",
+    "end_date": "2026-12-06",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: видео №12 «MPLS L2VPN». EVPN-микровыпуски — только как дополнение, если останутся силы.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• LinkMeUp: видео №12 и следующий материал плейлиста по L2VPN/EVPN, если он входит в твои 16 видео.",
+      "• L2VPN vs L3VPN: что именно получает клиент.",
+      "• Pseudowire, Ethernet service; EVPN как control-plane для L2/L3 — обзорно.",
+      "• Не уходить глубоко в EVPN multihoming: цель — увидеть место технологии в общей картине."
+    ],
+    "practice": [
+      "• Нарисовать L2VPN и L3VPN рядом и подписать, кто маршрутизирует.",
+      "• Составить 10 вопросов самому себе по L2/L3VPN.",
+      "• Разобрать один реальный рабочий кейс без копирования конфиденциальных данных."
+    ],
+    "outcome": "Понимать разницу сервисов и не путать VRF/L3VPN с псевдопроводом.",
+    "source_table_index": 17
+  },
+  {
+    "week": 14,
+    "phase": 1,
+    "date_label": "Неделя 14  |  7 декабря — 13 декабря 2026",
+    "title": "Оставшиеся видео LinkMeUp: TE, путь пакета, QoS",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2026-12-07",
+    "end_date": "2026-12-13",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: основные части №13 «MPLS Traffic Engineering», №14 «Путь пакета», №15 «QoS».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2.5: TCP/UDP, HTTP, DNS, TLS/SSL, SSH; вопрос «что происходит после ввода URL»; curl, nc, tcpdump/Wireshark. Это обязательный второй проход темы «путь пакета».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, доп. «Сетевые технологии»: TCP/IP, DNS, HTTP/TLS и сетевой troubleshooting — пройти соответствующие уроки, если доступны.",
+        "requirement_interpretation": "conditional_availability",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Досмотреть видео №13–16 из твоего плейлиста. Темы сопоставлять с актуальным оглавлением СДСМ: MPLS Traffic Engineering, путь пакета, QoS и/или завершающий материал плейлиста.",
+      "• Control plane vs data/forwarding plane.",
+      "• QoS: classification, marking, policing, shaping, queues — базовая логика.",
+      "• Собрать целостную картину «что происходит с пакетом от приложения до удалённой сети»."
+    ],
+    "practice": [
+      "• Нарисовать полный путь пакета: приложение → TCP/UDP → IP → Ethernet → router/MPLS → удалённый хост.",
+      "• Сделать 1 большую карту знаний по всем 16 видео.",
+      "• Выбрать 3 самых слабых сетевых темы для будущего повторения."
+    ],
+    "outcome": "Закрыть все 16 видео и иметь единый сетевой конспект, а не 16 разрозненных записей.",
+    "source_table_index": 18
+  },
+  {
+    "week": 15,
+    "phase": 1,
+    "date_label": "Неделя 15  |  14 декабря — 20 декабря 2026",
+    "title": "Буфер №1: сети без новой теории",
+    "difficulty": "БУФЕР",
+    "start_date": "2026-12-14",
+    "end_date": "2026-12-20",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: ничего нового; закрыть пропуски по 16 основным частям плейлиста.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2.5: пройти все вопросы для собеседований и отметить пробелы.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: добить незакрытые уроки доп. сетевого модуля; новой темы не брать.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Новой темы нет. Догнать пропущенные видео/конспекты.",
+      "• Повторить subnetting, VLAN/STP, OSPF, BGP, MPLS L3VPN — приоритетные блоки.",
+      "• Составить список непонятных терминов и закрыть их по одному."
+    ],
+    "practice": [
+      "• Большая лаба: VLAN → routing → OSPF/BGP (по возможностям симулятора).",
+      "• Траблшутинг: намеренно внести 5 ошибок и найти их.",
+      "• Контрольная: объяснить вслух «что происходит, когда я пингую удалённый адрес»."
+    ],
+    "outcome": "Если есть отставание — именно здесь календарь выравнивается.",
+    "source_table_index": 19
+  },
+  {
+    "week": 16,
+    "phase": 2,
+    "date_label": "Неделя 16  |  21 декабря — 27 декабря 2026",
+    "title": "DevOps-мышление + Git: зачем это всё",
+    "difficulty": "БАЗА",
+    "start_date": "2026-12-21",
+    "end_date": "2026-12-27",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 1 «Git»: 5 главных команд, branches, tags, Markdown; создать репозиторий и вести конспекты в .md.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 1 «Введение в DevOps и системы контроля версий»: философия DevOps, CALMS, репозитории, фиксация изменений, история коммитов.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Яндекс: философия DevOps, CALMS, связь разработки и эксплуатации.",
+      "• Roadmap: Git как основа для конфигов, YAML, pipeline и документации.",
+      "• Repository, working tree, staging area, commit, HEAD.",
+      "• git init/add/commit/status/log; Markdown как формат инженерной документации."
+    ],
+    "practice": [
+      "• Создать учебный репозиторий дома.",
+      "• Сделать 10 осмысленных коммитов с README и структурой notes/.",
+      "• Начать хранить конспекты курса в Git."
+    ],
+    "outcome": "Git перестаёт быть «страшной локальной штукой» и становится журналом твоей работы.",
+    "source_table_index": 20
+  },
+  {
+    "week": 17,
+    "phase": 2,
+    "date_label": "Неделя 17  |  28 декабря 2026 — 3 января 2027",
+    "title": "Git: branches, merge, conflicts и workflow",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2026-12-28",
+    "end_date": "2027-01-03",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 1 «Git»: checkout, merge, rebase, fetch, revert, diff, clone; GitFlow/GitHub Flow/GitLab Flow/Trunk-Based.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 1: стратегии ветвления, конфликты, сравнение версий, pull requests, чистота репозитория + практика рефакторинга репозитория.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• branch, checkout/switch, merge, rebase — назначение и различия.",
+      "• fetch vs pull; remote/origin; clone/push.",
+      "• GitFlow, GitHub Flow, GitLab Flow, trunk-based — когда какой подход используют.",
+      "• Pull/Merge Request, code review, clean history; типовые Git-антипаттерны из Практикума."
+    ],
+    "practice": [
+      "• Создать feature branches, merge и намеренный conflict.",
+      "• Разрешить конфликт вручную; выполнить revert и безопасный reset в учебном репо.",
+      "• Сделать маленький workflow: issue → branch → commit → merge."
+    ],
+    "outcome": "Уметь объяснить, что делает git pull «под капотом», и безопасно решать конфликт.",
+    "source_table_index": 21
+  },
+  {
+    "week": 18,
+    "phase": 2,
+    "date_label": "Неделя 18  |  4 января — 10 января 2027",
+    "title": "Linux I: файловая система и базовые команды",
+    "difficulty": "БАЗА",
+    "start_date": "2027-01-04",
+    "end_date": "2027-01-10",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: базовые команды cd/mkdir/rm/touch/nano/vim; find/locate/tree/ln/stat/file.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный: «Основы Linux + траблшутинг» — архитектура Linux, терминал, базовое устройство ОС.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Filesystem hierarchy: /, /etc, /var, /home, /tmp, /usr, /opt, /dev.",
+      "• pwd, ls, cd, mkdir, cp, mv, rm, touch, file, stat, find, tree, ln.",
+      "• Absolute/relative path, hidden files, globbing.",
+      "• nano и базовый Vim."
+    ],
+    "practice": [
+      "• Развернуть Linux VM или вторую ОС для домашней практики.",
+      "• Создать структуру /home/.../devops-lab и выполнить файловые задания.",
+      "• Сделать cheatsheet по 20 командам."
+    ],
+    "outcome": "Свободно перемещаться по Linux без GUI.",
+    "source_table_index": 22
+  },
+  {
+    "week": 19,
+    "phase": 2,
+    "date_label": "Неделя 19  |  11 января — 17 января 2027",
+    "title": "Linux II: пользователи, группы и права",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-01-11",
+    "end_date": "2027-01-17",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: права chmod, пользователи; практика первичной настройки сервера — user/sudo.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: администрирование — управление пользователями и системой.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• UID/GID, /etc/passwd, /etc/group, root и sudo.",
+      "• rwx для owner/group/others; chmod symbolic/octal; chown/chgrp.",
+      "• umask; права на директории vs файлы.",
+      "• sudoers — концептуально и осторожно."
+    ],
+    "practice": [
+      "• Создать 3 пользователей и 2 группы; разграничить доступ к каталогам.",
+      "• Отработать 644/600/755/750 и объяснить каждую цифру.",
+      "• Смоделировать Permission denied и найти причину."
+    ],
+    "outcome": "Уметь быстро диагностировать проблему доступа к файлу/директории.",
+    "source_table_index": 23
+  },
+  {
+    "week": 20,
+    "phase": 2,
+    "date_label": "Неделя 20  |  18 января — 24 января 2027",
+    "title": "Linux III: процессы, сигналы и job control",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-01-18",
+    "end_date": "2027-01-24",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: ps aux, PID, состояния R/S/D/Z/T, SIGTERM/SIGKILL/SIGHUP/SIGINT; &, nohup, jobs/tmux/screen.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: процессы и память. Пройти материал, относящийся к процессам.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Process/PID/PPID, fork/exec/wait — концептуально.",
+      "• ps aux, top/htop, pgrep, kill/pkill; SIGTERM/SIGKILL/SIGHUP/SIGINT.",
+      "• R/S/D/Z/T состояния процессов; zombie.",
+      "• &, jobs, fg/bg, nohup, screen/tmux — назначение."
+    ],
+    "practice": [
+      "• Запустить фоновые процессы и управлять ими.",
+      "• Создать zombie-процесс в безопасной лаборатории по готовому примеру и увидеть его в ps.",
+      "• Сравнить SIGTERM и SIGKILL на тестовом процессе."
+    ],
+    "outcome": "Понимать, почему процесс «есть», но не работает, и чем его корректно завершать.",
+    "source_table_index": 24
+  },
+  {
+    "week": 21,
+    "phase": 2,
+    "date_label": "Неделя 21  |  25 января — 31 января 2027",
+    "title": "Linux IV: systemd, загрузка и сервисы",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-01-25",
+    "end_date": "2027-01-31",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: SystemD, загрузка/инициализация, собственный unit, зависимости/таймеры/journalctl.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: загрузка системы и администрирование; связать уроки с systemd.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Boot process обзорно; init vs systemd.",
+      "• Unit, service, target, dependency; systemctl status/start/stop/restart/enable.",
+      "• journalctl и фильтрация.",
+      "• Простой unit-файл: ExecStart, Restart, User, Environment."
+    ],
+    "practice": [
+      "• Оформить простой Python HTTP server как systemd service.",
+      "• Включить автозапуск и Restart=on-failure; проверить после kill.",
+      "• Найти ошибки сервиса через journalctl."
+    ],
+    "outcome": "Уметь превратить обычный процесс в управляемый сервис.",
+    "source_table_index": 25
+  },
+  {
+    "week": 22,
+    "phase": 2,
+    "date_label": "Неделя 22  |  1 февраля — 7 февраля 2027",
+    "title": "Linux V: CPU, RAM, load average и /proc",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-02-01",
+    "end_date": "2027-02-07",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: top/htop, load average, CPU us/sy/wa/id, RAM, /proc, OOM Killer, free, vmstat/iostat/pidstat.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: память, процессы, системные ресурсы. Выполнить относящиеся тренажёры.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• CPU us/sy/wa/id; load average и отличие нагрузки от CPU utilization.",
+      "• RAM: free/available, page cache, swap, RSS/VSZ.",
+      "• /proc и /sys; OOM Killer и oom_score_adj — концептуально.",
+      "• vmstat, iostat, pidstat — как расширение top."
+    ],
+    "practice": [
+      "• Создать безопасную CPU/Memory/I/O нагрузку и диагностировать её.",
+      "• Снять показатели top/free/vmstat и написать вывод.",
+      "• Найти данные конкретного процесса в /proc/PID."
+    ],
+    "outcome": "Отвечать не «сервер тормозит», а конкретно: CPU/RAM/I/O/process.",
+    "source_table_index": 26
+  },
+  {
+    "week": 23,
+    "phase": 2,
+    "date_label": "Неделя 23  |  8 февраля — 14 февраля 2027",
+    "title": "Linux VI: диски, файловые системы и inodes",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-02-08",
+    "end_date": "2027-02-14",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: df+du+inode, mount, /etc/fstab, LVM, RAID; файловые системы.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: дисковые подсистемы. Пройти соответствующий материал.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• df vs du; inode и ситуация «No space left on device при свободных GB».",
+      "• mount/umount, /etc/fstab; filesystem обзорно.",
+      "• lsblk, blkid, fdisk/parted — назначение.",
+      "• LVM и RAID — зачем и базовая архитектура."
+    ],
+    "practice": [
+      "• Создать loopback disk/file, filesystem и mount point (в VM).",
+      "• Исследовать df -h / df -i / du.",
+      "• Составить чеклист «закончился диск»."
+    ],
+    "outcome": "Уметь различать нехватку места, inode и ошибку mount.",
+    "source_table_index": 27
+  },
+  {
+    "week": 24,
+    "phase": 2,
+    "date_label": "Неделя 24  |  15 февраля — 21 февраля 2027",
+    "title": "Linux VII: потоки, grep/awk/sed и обработка текста",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-02-15",
+    "end_date": "2027-02-21",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: stdin/stdout/stderr, |, >, >>, 2>&1; grep/awk/sed/cut/sort/uniq/wc/xargs; env/export/PATH.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный «Bash»: переменные, потоки ввода-вывода и текстовые утилиты.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• stdin/stdout/stderr; |, >, >>, 2>, 2>&1.",
+      "• grep + regex basics; cut, sort, uniq, wc, tr, xargs.",
+      "• awk и sed — базовые шаблоны для логов/конфигов.",
+      "• env, export, PATH, .bashrc/.profile."
+    ],
+    "practice": [
+      "• Взять большой лог-файл и сделать 10 однострочников.",
+      "• Посчитать частые IP/error codes/строки через pipe chain.",
+      "• Сохранить команды в notes/linux-text.md."
+    ],
+    "outcome": "Уметь быстро извлечь нужное из логов без Excel/GUI.",
+    "source_table_index": 28
+  },
+  {
+    "week": 25,
+    "phase": 2,
+    "date_label": "Неделя 25  |  22 февраля — 28 февраля 2027",
+    "title": "Bash: скрипты и автоматизация",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-02-22",
+    "end_date": "2027-02-28",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: Bash — условия, циклы, функции, exit codes.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный «Создание скриптов на Bash»: управляющие конструкции + практическая работа со скриптом сбора CPU/RAM/disk/network/ports/users/root sessions.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Shebang, variables, quoting, command substitution, exit codes.",
+      "• if/case, for/while, functions, $1/$@/$?, set -euo pipefail — смысл.",
+      "• Работа с файлами и командами из скрипта.",
+      "• Практикум: сбор характеристик CPU, RAM, disks, network, users."
+    ],
+    "practice": [
+      "• Написать system_report.sh.",
+      "• Добавить проверки ошибок и логирование.",
+      "• Запускать по cron или systemd timer."
+    ],
+    "outcome": "Первый полезный DevOps-скрипт, который можно показать как мини-проект.",
+    "source_table_index": 29
+  },
+  {
+    "week": 26,
+    "phase": 2,
+    "date_label": "Неделя 26  |  1 марта — 7 марта 2027",
+    "title": "SSH, Linux networking, firewall и Nginx",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-03-01",
+    "end_date": "2027-03-07",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux» + 2.5 «Сети»: SSH keys/config/scp/rsync; TCP/UDP, DNS, HTTP, TLS, ARP; ping/mtr/ss/curl/nc/nmap/tcpdump/iptables; Nginx/HAProxy.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный Linux: сетевой стек; доп. сетевой модуль — troubleshooting/сетевые протоколы. Если поурочные названия отличаются, проходить только уроки по перечисленным темам.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• ssh-keygen, authorized_keys, ssh config; scp/rsync; port forwarding.",
+      "• ip addr/route, ss, ping, traceroute/mtr, dig, curl, nc, tcpdump.",
+      "• ufw/nftables/iptables — логика firewall.",
+      "• Nginx: listen, server_name, reverse proxy, access/error log."
+    ],
+    "practice": [
+      "• Подключаться к Linux VM только по SSH key.",
+      "• Поднять Nginx и reverse proxy к тестовому backend.",
+      "• Снять tcpdump при HTTP-запросе и найти TCP handshake."
+    ],
+    "outcome": "Связать сетевые знания LinkMeUp с реальным Linux networking.",
+    "source_table_index": 30
+  },
+  {
+    "week": 27,
+    "phase": 2,
+    "date_label": "Неделя 27  |  8 марта — 14 марта 2027",
+    "title": "Linux troubleshooting: логи, strace и методика",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-03-08",
+    "end_date": "2027-03-14",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux»: journalctl/syslog,/var/log, logrotate, strace/ltrace; live troubleshooting; вопросы собеседований.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, расширенный «Основы Linux + траблшутинг»: практика в симуляторе в формате дежурства. Это основной источник практики недели.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Методика: symptom → scope → recent changes → resources → logs → network → dependencies.",
+      "• journalctl, /var/log, logrotate, dmesg.",
+      "• strace/ltrace — что показывают и когда применять.",
+      "• Разобрать типовые кейсы: порт занят, permission denied, DNS, disk full, service crash."
+    ],
+    "practice": [
+      "• Создать 5 поломок в VM и восстановить систему только через CLI.",
+      "• На каждую поломку написать «симптом → проверка → причина → решение».",
+      "• Собрать личный Linux troubleshooting checklist."
+    ],
+    "outcome": "Начать мыслить как инженер эксплуатации, а не как пользователь команд.",
+    "source_table_index": 31
+  },
+  {
+    "week": 28,
+    "phase": 2,
+    "date_label": "Неделя 28  |  15 марта — 21 марта 2027",
+    "title": "Буфер №2 + bare-metal мини-проект",
+    "difficulty": "БУФЕР",
+    "start_date": "2027-03-15",
+    "end_date": "2027-03-21",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 2 «Linux» — практики: первичная настройка сервера, свой systemd unit, голое Frontend+Backend+DB без Docker.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: закрыть практические работы Linux/Bash, которые не успели в неделях 18–27. Новой теории не брать.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Новой теории минимум. Закрыть пробелы Git/Linux.",
+      "• Повторить процессы, systemd, сеть, диски, права, Bash.",
+      "• Подготовиться к контейнерам: namespaces и cgroups обзорно."
+    ],
+    "practice": [
+      "• Запустить без Docker: frontend + backend + простая БД/SQLite или PostgreSQL.",
+      "• Сервисы оформить через systemd, Nginx использовать как reverse proxy.",
+      "• Сделать README с архитектурой и инструкцией запуска."
+    ],
+    "outcome": "Фиксируем baseline: ты умеешь поднять приложение на «голом» Linux.",
+    "source_table_index": 32
+  },
+  {
+    "week": 29,
+    "phase": 3,
+    "date_label": "Неделя 29  |  22 марта — 28 марта 2027",
+    "title": "Docker I: контейнеризация и архитектура",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-03-22",
+    "end_date": "2027-03-28",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 3 «Docker»: архитектура Docker daemon/client/API, container/image, команды run/ps/logs/exec/build/images.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 6 «Контейнеризация приложений»: Docker контейнеры/образы + пространства имён Linux.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• VM vs container; image vs container.",
+      "• Docker daemon/client/API; registry.",
+      "• namespaces и cgroups как фундамент изоляции.",
+      "• docker pull/run/ps/logs/exec/stop/rm/images."
+    ],
+    "practice": [
+      "• Установить Docker дома.",
+      "• Запустить несколько контейнеров, исследовать процессы/namespace с host.",
+      "• Сделать таблицу «host process ↔ container process»."
+    ],
+    "outcome": "Понимать, что Docker не «магическая VM», а процесс с изоляцией.",
+    "source_table_index": 33
+  },
+  {
+    "week": 30,
+    "phase": 3,
+    "date_label": "Неделя 30  |  29 марта — 4 апреля 2027",
+    "title": "Docker II: Dockerfile, слои и кэш",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-03-29",
+    "end_date": "2027-04-04",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 3 «Docker»: Dockerfile FROM/RUN/COPY/ADD/WORKDIR/ENV/ARG/EXPOSE/CMD/ENTRYPOINT/USER; layers/cache, context, multi-stage, best practices.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 6: создание Dockerfile, параметризация образов, работа с registry.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• FROM, RUN, COPY, ADD, WORKDIR, ENV, ARG, EXPOSE, CMD, ENTRYPOINT, USER.",
+      "• Build context, layers, cache; .dockerignore.",
+      "• CMD vs ENTRYPOINT, COPY vs ADD.",
+      "• Multi-stage build и минимизация image size."
+    ],
+    "practice": [
+      "• Контейнеризировать backend из недели 28.",
+      "• Сделать плохой Dockerfile, затем оптимизировать размер/кэш.",
+      "• Сравнить docker history двух образов."
+    ],
+    "outcome": "Уметь написать аккуратный Dockerfile с объяснением каждой директивы.",
+    "source_table_index": 34
+  },
+  {
+    "week": 31,
+    "phase": 3,
+    "date_label": "Неделя 31  |  5 апреля — 11 апреля 2027",
+    "title": "Docker III: сети, volumes, registry и безопасность",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-04-05",
+    "end_date": "2027-04-11",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 3 «Docker»: bridge/host/none/overlay/macvlan; volumes; registry, tags/versioning; docker network.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 6: тома и сети, registry, секреты, безопасный запуск, проверка образов на уязвимости.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• bridge/host/none; port publishing; container DNS.",
+      "• Volumes vs bind mounts; persistence.",
+      "• Image tags, SemVer basics, registry; pull/push.",
+      "• USER non-root, secrets, image scanning — базовые best practices."
+    ],
+    "practice": [
+      "• Создать custom bridge network и связать app + DB.",
+      "• Проверить persistence после удаления контейнера.",
+      "• Собрать и тегировать версии 0.1.0/0.2.0 образа."
+    ],
+    "outcome": "Понимать, что хранится внутри контейнера, а что должно жить снаружи.",
+    "source_table_index": 35
+  },
+  {
+    "week": 32,
+    "phase": 3,
+    "date_label": "Неделя 32  |  12 апреля — 18 апреля 2027",
+    "title": "Docker Compose + Nginx + многоконтейнерное приложение",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-04-12",
+    "end_date": "2027-04-18",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 3 «Docker»: Docker Compose; практика «приложение + БД + nginx»; bind mount nginx.conf; мониторинг-стек как доп.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 7 «Оркестрация многоконтейнерных приложений»: compose, networks, ports, env, volumes, secrets, порядок запуска, L4/L7 балансировка nginx + практика.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Compose services/networks/volumes/environment/depends_on.",
+      "• Переиспользование конфигураций и переменных.",
+      "• L4/L7 балансировка через Nginx — базово.",
+      "• Практикум: оркестрация многоконтейнерного приложения."
+    ],
+    "practice": [
+      "• Собрать compose: nginx + backend + DB (+ cache по желанию).",
+      "• Примонтировать собственный nginx.conf.",
+      "• Остановить/пересоздать стек и проверить сохранность данных."
+    ],
+    "outcome": "Один docker compose up поднимает рабочий мини-стек.",
+    "source_table_index": 36
+  },
+  {
+    "week": 33,
+    "phase": 3,
+    "date_label": "Неделя 33  |  19 апреля — 25 апреля 2027",
+    "title": "CI/CD I: методология и GitLab CI",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-04-19",
+    "end_date": "2027-04-25",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 4 «CI/CD»: методология CI/CD; GitLab CI — pipeline/stage/job, .gitlab-ci.yml build/test/deploy.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 2 «Автоматизация сборки и CI»: архитектура CI, Continuous Integration, многоэтапные конвейеры, GitLab CI, Lean и антипаттерны.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Continuous Integration / Delivery / Deployment — различия.",
+      "• Pipeline, stage, job; CI architecture и feedback loop.",
+      "• .gitlab-ci.yml, image, script, stages.",
+      "• Lean-подход и типовые антипаттерны."
+    ],
+    "practice": [
+      "• Дома в GitLab/GitHub-compatible среде создать pipeline build → test.",
+      "• Добавить lint/test job и падение pipeline при ошибке.",
+      "• Нарисовать свой «идеальный pipeline» от commit до prod."
+    ],
+    "outcome": "Уметь объяснить ценность CI/CD до обсуждения конкретного YAML.",
+    "source_table_index": 37
+  },
+  {
+    "week": 34,
+    "phase": 3,
+    "date_label": "Неделя 34  |  26 апреля — 2 мая 2027",
+    "title": "CI/CD II: artifacts, cache, rules, variables и runners",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-04-26",
+    "end_date": "2027-05-02",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 4 «CI/CD»: rules, variables, CI/CD Variables, artifacts, cache, before/after_script, Registry, environments, manual, needs/extends/include/trigger, runners.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 2: закончить теорию и выполнить практику «сборочный конвейер в GitLab с автоматическим контролем качества кода».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• rules/only, variables, CI secrets, artifacts, cache.",
+      "• before_script/after_script, needs, include/extends.",
+      "• Environments и manual approvals.",
+      "• GitLab Runner: shell/docker/kubernetes executor — назначение."
+    ],
+    "practice": [
+      "• Pipeline: build image → test → push registry.",
+      "• Передать artifact между jobs, добавить cache и protected secret.",
+      "• Сделать dev auto / staging main / prod manual логику."
+    ],
+    "outcome": "Pipeline становится похож на реальный релизный процесс.",
+    "source_table_index": 38
+  },
+  {
+    "week": 35,
+    "phase": 3,
+    "date_label": "Неделя 35  |  3 мая — 9 мая 2027",
+    "title": "Terraform I: Infrastructure as Code",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-05-03",
+    "end_date": "2027-05-09",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7 «Terraform»: provider, resource, state, plan, module, backend, apply.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 3 «Infrastructure as Code»: IaC/Immutable Infrastructure, базовые конструкции Terraform, terraform apply.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• IaC, declarative model, immutable infrastructure.",
+      "• provider, resource, data source, plan/apply/destroy.",
+      "• HCL syntax, variables, outputs.",
+      "• Terraform lifecycle и drift — базово."
+    ],
+    "practice": [
+      "• Поднять безопасный локальный/облачный учебный ресурс через Terraform.",
+      "• Изменить конфигурацию → plan → apply → destroy.",
+      "• Хранить код в Git и документировать каждый ресурс."
+    ],
+    "outcome": "Инфраструктура создаётся кодом, а не ручными кликами.",
+    "source_table_index": 39
+  },
+  {
+    "week": 36,
+    "phase": 3,
+    "date_label": "Неделя 36  |  10 мая — 16 мая 2027",
+    "title": "Terraform II: state, modules и безопасная конфигурация",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-05-10",
+    "end_date": "2027-05-16",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap Terraform: state/backend/modules — углубить; повторить безопасность state и переиспользование модулей.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 3: state, drift, variables/secrets, DRY/modules, безопасное хранение state + практическая работа.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• State: зачем нужен и почему его нельзя бездумно хранить в Git.",
+      "• Remote backend и locking — концептуально.",
+      "• Modules, DRY, locals, tfvars; secrets.",
+      "• Yandex Cloud/VPC/VM как удобный контекст, если доступен."
+    ],
+    "practice": [
+      "• Вынести повторяющуюся инфраструктуру в module.",
+      "• Сделать dev/prod vars.",
+      "• Сымитировать drift и разобраться с plan."
+    ],
+    "outcome": "Понимать риски state и уметь строить переиспользуемый Terraform-код.",
+    "source_table_index": 40
+  },
+  {
+    "week": 37,
+    "phase": 3,
+    "date_label": "Неделя 37  |  17 мая — 23 мая 2027",
+    "title": "Ansible I: inventory, ad-hoc и playbook",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-05-17",
+    "end_date": "2027-05-23",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 5 «Ansible»: agentless, inventory, SSH, ad-hoc, modules, idempotence, playbook structure.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 4 «Управление конфигурацией»: автоматизация SCM, inventory, идемпотентные playbooks, variables/facts/conditions.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Agentless, SSH, declarative configuration, idempotence.",
+      "• Inventory INI/YAML, groups/hosts.",
+      "• Ad-hoc commands и основные modules.",
+      "• Playbook structure, tasks, become, variables, facts."
+    ],
+    "practice": [
+      "• Создать 2 Linux VM и управлять ими с control node.",
+      "• Playbook: user + package + directory + service.",
+      "• Запустить дважды и убедиться в idempotence."
+    ],
+    "outcome": "Уметь объяснить, почему второй запуск не должен «что-то ломать».",
+    "source_table_index": 41
+  },
+  {
+    "week": 38,
+    "phase": 3,
+    "date_label": "Неделя 38  |  24 мая — 30 мая 2027",
+    "title": "Ansible II: roles, Jinja2, handlers и Vault",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-05-24",
+    "end_date": "2027-05-30",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 5 «Ansible»: roles, handlers, variable precedence, facts, when/loop, Jinja2 templates, Ansible Vault.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 4: roles/Jinja2, handlers, error blocks/strategies, Ansible Galaxy + практический Ansible-проект.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Roles: tasks/handlers/templates/files/defaults/vars.",
+      "• Jinja2 templates, when, loop, variable precedence.",
+      "• Handlers, blocks/rescue, strategy — базово.",
+      "• Ansible Vault и секреты."
+    ],
+    "practice": [
+      "• Создать роль nginx и роль app.",
+      "• Шаблонизировать конфиг для dev/prod.",
+      "• Добавить handler restart only on change."
+    ],
+    "outcome": "Собрать нормальный Ansible-проект, а не один гигантский playbook.",
+    "source_table_index": 42
+  },
+  {
+    "week": 39,
+    "phase": 3,
+    "date_label": "Неделя 39  |  31 мая — 6 июня 2027",
+    "title": "Continuous Delivery: версии, артефакты, rollback и DORA",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-05-31",
+    "end_date": "2027-06-06",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 4 «CI/CD»: Delivery vs Deployment, идеальный pipeline, environments/manual, интеграция Docker/Ansible; GitOps — только концепция.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 5 «Continuous Delivery и Deployment»: SemVer, artifacts, GitLab CI+Terraform deploy, rollback/feature flags, 12-factor/stateful, Lean/DORA.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• SemVer, artifact repository/registry.",
+      "• Rollback, feature flags, stateful deployment risks.",
+      "• 12-factor app — ключевые принципы.",
+      "• DORA metrics: deployment frequency, lead time, change failure rate, MTTR."
+    ],
+    "practice": [
+      "• Сделать release 1.0.0 → 1.1.0 и сценарий rollback.",
+      "• Описать критерии допуска к prod.",
+      "• Добавить ручное подтверждение prod в pipeline."
+    ],
+    "outcome": "Уметь обсуждать не только «как деплоить», но и «как деплоить безопасно».",
+    "source_table_index": 43
+  },
+  {
+    "week": 40,
+    "phase": 3,
+    "date_label": "Неделя 40  |  7 июня — 13 июня 2027",
+    "title": "Интеграция: Git → CI → Registry → Terraform/Ansible → Deploy",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-06-07",
+    "end_date": "2027-06-13",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap: объединить практики Docker + CI/CD + Terraform + Ansible в один pipeline; свериться с критериями каждого блока.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: выполнить/доделать практику спринта 5 — автоматическая сборка, артефакты, развёртывание и rollback; использовать результаты спринтов 2–4.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Связать знания предыдущих 12 недель.",
+      "• Решить, что создаёт Terraform, что настраивает Ansible, что делает CI.",
+      "• Secrets, environment separation, artifacts.",
+      "• Принцип single source of truth."
+    ],
+    "practice": [
+      "• Пайплайн: test → build image → push → provision/configure → deploy.",
+      "• Сделать dev и prod окружения.",
+      "• Документировать architecture + sequence diagram."
+    ],
+    "outcome": "Первый end-to-end DevOps pipeline.",
+    "source_table_index": 44
+  },
+  {
+    "week": 41,
+    "phase": 3,
+    "date_label": "Неделя 41  |  14 июня — 20 июня 2027",
+    "title": "Буфер №3: Docker/CI/IaC/Ansible",
+    "difficulty": "БУФЕР",
+    "start_date": "2027-06-14",
+    "end_date": "2027-06-20",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap: повторить собеседования Git/Linux/Docker/CI/Terraform/Ansible и закрыть технический долг.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: буфер для незавершённых практических работ спринтов 2–5. Новой темы не брать.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Новых технологий нет.",
+      "• Доделать pipeline, Terraform и Ansible.",
+      "• Повторить interview topics: CI/CD, Docker isolation, idempotence, state."
+    ],
+    "practice": [
+      "• Полностью снести учебную инфраструктуру и восстановить её из Git.",
+      "• Проверить, что README достаточен для воспроизведения.",
+      "• Составить список технического долга проекта."
+    ],
+    "outcome": "Главная проверка: можешь ли ты воспроизвести окружение из кода.",
+    "source_table_index": 45
+  },
+  {
+    "week": 42,
+    "phase": 4,
+    "date_label": "Неделя 42  |  21 июня — 27 июня 2027",
+    "title": "Kubernetes I: архитектура и kubectl",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-06-21",
+    "end_date": "2027-06-27",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6 «Kubernetes»: архитектура Control Plane/Worker, kubelet/runtime/kube-proxy; поставить minikube/kind/k3d; kubectl.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8 «Kubernetes»: архитектура, развёртывание кластера, диагностика с kubectl.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Control Plane: API Server, etcd, scheduler, controllers.",
+      "• Worker: kubelet, container runtime, kube-proxy.",
+      "• Cluster, node, namespace, desired state.",
+      "• kubectl get/describe/logs/exec/apply/delete."
+    ],
+    "practice": [
+      "• Поднять kind/minikube/k3d.",
+      "• Исследовать nodes/namespaces/system pods.",
+      "• Задеплоить первый Pod и посмотреть describe/logs."
+    ],
+    "outcome": "Понимать, кто в кластере за что отвечает.",
+    "source_table_index": 46
+  },
+  {
+    "week": 43,
+    "phase": 4,
+    "date_label": "Неделя 43  |  28 июня — 4 июля 2027",
+    "title": "Kubernetes II: Pod, Deployment, ConfigMap, Secret",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-06-28",
+    "end_date": "2027-07-04",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6: Pod, Deployment, DaemonSet, StatefulSet, ConfigMap, Secret, Job, CronJob; писать manifests руками.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: базовые YAML-ресурсы, deploy/update приложений, конфигурации и защищённые данные.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Pod как минимальная единица.",
+      "• Deployment/ReplicaSet, rolling update/rollback.",
+      "• ConfigMap/Secret; environment vs mounted files.",
+      "• Job/CronJob — назначение."
+    ],
+    "practice": [
+      "• Написать YAML вручную: Deployment + ConfigMap + Secret.",
+      "• Обновить image tag и наблюдать rolling update.",
+      "• Откатить rollout."
+    ],
+    "outcome": "Писать базовые manifests без генераторов.",
+    "source_table_index": 47
+  },
+  {
+    "week": 44,
+    "phase": 4,
+    "date_label": "Неделя 44  |  5 июля — 11 июля 2027",
+    "title": "Kubernetes III: Service, Ingress, CoreDNS и CNI",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-07-05",
+    "end_date": "2027-07-11",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6 «Сеть Kubernetes»: CNI, kube-proxy, CoreDNS; Service, Ingress, NetworkPolicy; сеть на уровне нод.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: сетевое взаимодействие компонентов и внешний доступ с политиками безопасности.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• ClusterIP/NodePort/LoadBalancer; service discovery.",
+      "• Ingress vs Ingress Controller.",
+      "• CNI, pod network, kube-proxy — базовый data path.",
+      "• CoreDNS; NetworkPolicy — введение."
+    ],
+    "practice": [
+      "• Открыть приложение через Service и Ingress.",
+      "• Проверить DNS внутри Pod.",
+      "• Сломать selector/port и найти проблему через kubectl + curl."
+    ],
+    "outcome": "Уметь трассировать запрос client → Ingress → Service → Pod.",
+    "source_table_index": 48
+  },
+  {
+    "week": 45,
+    "phase": 4,
+    "date_label": "Неделя 45  |  12 июля — 18 июля 2027",
+    "title": "Kubernetes IV: PV, PVC, StorageClass и StatefulSet",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-07-12",
+    "end_date": "2027-07-18",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6 «Хранилище»: PV, PVC, StorageClass, Access Modes; StatefulSet.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: stateful-сервисы и связанные ресурсы хранения.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• PersistentVolume, PersistentVolumeClaim, StorageClass.",
+      "• Access Modes и dynamic provisioning.",
+      "• StatefulSet: когда нужен и чем отличается от Deployment.",
+      "• Риски баз данных в Kubernetes — обзорно."
+    ],
+    "practice": [
+      "• Подключить PVC к приложению.",
+      "• Развернуть простой StatefulSet.",
+      "• Удалить Pod и проверить, что данные/identity ведут себя ожидаемо."
+    ],
+    "outcome": "Понимать, почему state требует другой модели, чем stateless app.",
+    "source_table_index": 49
+  },
+  {
+    "week": 46,
+    "phase": 4,
+    "date_label": "Неделя 46  |  19 июля — 25 июля 2027",
+    "title": "Kubernetes V: probes, resources, rollout и HPA",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-07-19",
+    "end_date": "2027-07-25",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6: HPA; практика liveness/readiness probes, rolling update/rollback, масштабирование.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: бесперебойные обновления и автоматическое масштабирование рабочих нагрузок.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• liveness/readiness/startup probes.",
+      "• requests/limits; QoS classes — базово.",
+      "• RollingUpdate parameters и availability.",
+      "• HPA: metrics и принципы автомасштабирования."
+    ],
+    "practice": [
+      "• Сломать readiness и увидеть исключение Pod из Service.",
+      "• Сломать liveness и увидеть restart.",
+      "• Задать requests/limits и масштабировать deployment."
+    ],
+    "outcome": "Уметь отличить «не готов принимать трафик» от «процесс надо перезапустить».",
+    "source_table_index": 50
+  },
+  {
+    "week": 47,
+    "phase": 4,
+    "date_label": "Неделя 47  |  26 июля — 1 августа 2027",
+    "title": "Helm: пакетирование Kubernetes-приложения",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-07-26",
+    "end_date": "2027-08-01",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6 «Helm»: chart, values, templates, команды; values-dev/prod и два namespaces.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: пакетное управление приложениями с шаблонизацией и версионированием для разных сред.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Chart structure, templates, values, release.",
+      "• helm install/upgrade/rollback/template.",
+      "• values-dev.yaml vs values-prod.yaml.",
+      "• Когда Helm удобен, а когда усложняет."
+    ],
+    "practice": [
+      "• Обернуть приложение в Helm chart.",
+      "• Вынести image tag, replicas, resources, ingress host.",
+      "• Развернуть в двух namespaces разными values."
+    ],
+    "outcome": "Один chart обслуживает несколько окружений.",
+    "source_table_index": 51
+  },
+  {
+    "week": 48,
+    "phase": 4,
+    "date_label": "Неделя 48  |  2 августа — 8 августа 2027",
+    "title": "Kubernetes security: RBAC, Secrets, NetworkPolicy",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-08-02",
+    "end_date": "2027-08-08",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6 «Продвинутые»: RBAC; NetworkPolicy; Secrets; least privilege.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: защищённые данные и внешний доступ с политиками безопасности. Повторить с уклоном в RBAC/NetworkPolicy.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• ServiceAccount, Role/ClusterRole, Binding.",
+      "• Least privilege.",
+      "• Secrets: ограничения и внешние secret stores — обзорно.",
+      "• NetworkPolicy: ingress/egress policy."
+    ],
+    "practice": [
+      "• Создать ограниченный ServiceAccount.",
+      "• Запретить лишний network traffic и разрешить только нужный.",
+      "• Проверить доступ kubectl auth can-i."
+    ],
+    "outcome": "Понимать, что «работает» не означает «безопасно».",
+    "source_table_index": 52
+  },
+  {
+    "week": 49,
+    "phase": 4,
+    "date_label": "Неделя 49  |  9 августа — 15 августа 2027",
+    "title": "Kubernetes troubleshooting: полный стек",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-08-09",
+    "end_date": "2027-08-15",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6: cluster troubleshooting — Pending/CrashLoopBackOff/ImagePullBackOff/OOM, DNS/network/storage; собеседования.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: kubectl diagnostics + траблшутинг практического приложения. Создавать поломки намеренно.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Pending/CrashLoopBackOff/ImagePullBackOff/OOMKilled.",
+      "• Events, describe, logs, exec, endpoints, DNS, network, storage.",
+      "• Разбор dependency chain: ingress → service → pod → config → storage.",
+      "• Подход к кластерному траблшутингу."
+    ],
+    "practice": [
+      "• Создать минимум 7 типовых поломок и восстановить приложение.",
+      "• Составить decision tree по статусам Pod.",
+      "• Сохранить troubleshooting runbook в Git."
+    ],
+    "outcome": "Не паниковать при CrashLoopBackOff, а идти по диагностическому алгоритму.",
+    "source_table_index": 53
+  },
+  {
+    "week": 50,
+    "phase": 4,
+    "date_label": "Неделя 50  |  16 августа — 22 августа 2027",
+    "title": "Буфер №4 + Kubernetes mini-project",
+    "difficulty": "БУФЕР",
+    "start_date": "2027-08-16",
+    "end_date": "2027-08-22",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 6: полный стек Frontend+Backend(+DB), Helm chart, rollout/rollback, probes; закрыть Kubernetes-практику.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 8: выполнить практику «деплой многоконтейнерного приложения в Kubernetes-кластере».",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Повтор архитектуры, networking, storage, probes, Helm, RBAC.",
+      "• Доделать слабые части.",
+      "• Подготовить проект к подключению monitoring/logging."
+    ],
+    "practice": [
+      "• Frontend + backend + DB/managed DB + Ingress + Helm.",
+      "• Rolling update + rollback + HPA/probes.",
+      "• README: схема, deploy, troubleshooting."
+    ],
+    "outcome": "Получить стабильное приложение как базу для production-observability.",
+    "source_table_index": 54
+  },
+  {
+    "week": 51,
+    "phase": 5,
+    "date_label": "Неделя 51  |  23 августа — 29 августа 2027",
+    "title": "Monitoring: Prometheus, Grafana и Alertmanager",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-08-23",
+    "end_date": "2027-08-29",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7 «Мониторинг»: Prometheus/Grafana, pull model, metric types, PromQL, exporters, Alertmanager, Golden Signals, USE/RED.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 9 «Наблюдаемость и мониторинг»: Prometheus, Grafana, dashboards, Alertmanager.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Observability vs monitoring; metrics/logs/traces.",
+      "• Prometheus pull model, targets/exporters.",
+      "• Counter/gauge/histogram/summary; PromQL basics.",
+      "• Golden Signals, RED/USE; Alertmanager."
+    ],
+    "practice": [
+      "• Поднять Prometheus + Grafana (+ node exporter/cAdvisor).",
+      "• Сделать dashboard CPU/RAM/request rate/errors/latency.",
+      "• Создать 2 meaningful alerts и проверить их срабатывание."
+    ],
+    "outcome": "Мониторинг отвечает на вопрос «что сломалось и насколько плохо».",
+    "source_table_index": 55
+  },
+  {
+    "week": 52,
+    "phase": 5,
+    "date_label": "Неделя 52  |  30 августа — 5 сентября 2027",
+    "title": "Logging: Loki/ELK и централизованные логи",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-08-30",
+    "end_date": "2027-09-05",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7 «Логи»: ELK и Loki+Grafana, источники логов, Fluentd/Filebeat/Fluent Bit.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 9: логирование в Loki, Grafana; выполнить практику полной системы наблюдаемости.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Источники логов: files, systemd, stdout/stderr containers/Kubernetes.",
+      "• Loki + Grafana и ELK — различия на уровне архитектуры.",
+      "• Fluent Bit/Filebeat/Logstash — роль агентов/пайплайна.",
+      "• Structured logging и correlation fields — базово."
+    ],
+    "practice": [
+      "• Собрать логи приложения в Loki или ELK.",
+      "• Сделать поиск ошибок по service/environment/request ID.",
+      "• Связать dashboard metrics с логами инцидента."
+    ],
+    "outcome": "Логи становятся централизованным инструментом диагностики.",
+    "source_table_index": 56
+  },
+  {
+    "week": 53,
+    "phase": 5,
+    "date_label": "Неделя 53  |  6 сентября — 12 сентября 2027",
+    "title": "PostgreSQL для DevOps: эксплуатационная база",
+    "difficulty": "СРЕДНЕ",
+    "start_date": "2027-09-06",
+    "end_date": "2027-09-12",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7 «Базы»: PostgreSQL install/config, pg_hba.conf/postgresql.conf, backup/restore, replication/monitoring, базовый SQL.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, дополнительный модуль «Базовый SQL для разработки»: PostgreSQL/terminal, CRUD, keys/constraints, JOIN, grouping/functions + практика.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Базовый SQL: SELECT/INSERT/UPDATE/DELETE, users/GRANT.",
+      "• postgresql.conf и pg_hba.conf — назначение.",
+      "• Backup/restore; pg_dump/pg_restore; replication — обзорно.",
+      "• Что мониторить у БД: connections, locks, disk, query latency."
+    ],
+    "practice": [
+      "• Развернуть PostgreSQL, создать роли и БД.",
+      "• Сделать backup → удалить данные → restore.",
+      "• Подключить базовые метрики PostgreSQL к monitoring."
+    ],
+    "outcome": "DevOps не обязан быть DBA, но обязан уметь безопасно поднять и восстановить БД.",
+    "source_table_index": 57
+  },
+  {
+    "week": 54,
+    "phase": 5,
+    "date_label": "Неделя 54  |  13 сентября — 19 сентября 2027",
+    "title": "Облако и Yandex Cloud: IaaS, VPC, IAM, S3",
+    "difficulty": "ПРОДВИНУТО",
+    "start_date": "2027-09-13",
+    "end_date": "2027-09-19",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7 «Облака» + Terraform: IaaS/PaaS/SaaS, VM/SSH, VPC/subnets/secgroups, S3, managed services; Terraform для создания инфраструктуры.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс: Yandex Cloud используется как инструмент/учебная инфраструктура; повторить IaC из спринта 3 на облачном стенде. Отдельного публичного спринта «Cloud» в программе нет.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• IaaS/PaaS/SaaS; regions/zones.",
+      "• VPC, subnets, routing, security groups.",
+      "• IAM/service accounts; object storage.",
+      "• Managed Kubernetes/PostgreSQL — что даёт managed model."
+    ],
+    "practice": [
+      "• Если доступен Yandex Cloud: создать VM/VPC/security group через Terraform.",
+      "• Подключиться по SSH и развернуть тестовый сервис.",
+      "• Создать bucket/object storage и описать cleanup."
+    ],
+    "outcome": "Связать сетевую базу, Terraform и production-инфраструктуру в облаке.",
+    "source_table_index": 58
+  },
+  {
+    "week": 55,
+    "phase": 5,
+    "date_label": "Неделя 55  |  20 сентября — 26 сентября 2027",
+    "title": "GitOps + Argo CD и Vault — следующий уровень",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-09-20",
+    "end_date": "2027-09-26",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "Не требуется на этой неделе.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap 7: GitOps/Argo CD — Git как source of truth, ArgoCD, App of Apps обзор; Vault — KV, auth methods, базовые команды.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: В основной публичной программе Яндекс DevOps отдельные блоки Argo CD/Vault не заявлены — на этой неделе Яндекс не требуется.",
+        "requirement_interpretation": "not_required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• GitOps: Git как source of truth, pull-based deployment.",
+      "• Argo CD: Application, sync, drift, rollback — базово.",
+      "• Vault: зачем нужен, KV secrets, auth methods — обзор.",
+      "• Где GitLab CI заканчивается и начинается GitOps."
+    ],
+    "practice": [
+      "• Поставить Argo CD в lab cluster и подключить Git repository.",
+      "• Изменить manifest в Git и увидеть sync.",
+      "• По возможности познакомиться с Vault KV на тестовом секрете."
+    ],
+    "outcome": "Понимать современную модель доставки изменений в Kubernetes.",
+    "source_table_index": 59
+  },
+  {
+    "week": 56,
+    "phase": 5,
+    "date_label": "Неделя 56  |  27 сентября — 3 октября 2027",
+    "title": "Итоговый проект + подготовка к следующему этапу",
+    "difficulty": "СЛОЖНО",
+    "start_date": "2027-09-27",
+    "end_date": "2027-10-03",
+    "dates_derivation": "ISO dates checked against exact printed Russian dates; source week boundaries are preserved.",
+    "source_routes": [
+      {
+        "source": "LinkMeUp",
+        "route": "ПРОЙТИ: LinkMeUp: повторить сетевые контрольные вопросы и слабые места; новых видео нет.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Roadmap",
+        "route": "ПРОЙТИ: Roadmap: пройти вопросы собеседований по всем блокам и выбрать 5 слабых тем для следующего цикла.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      },
+      {
+        "source": "Яндекс",
+        "route": "ПРОЙТИ: Яндекс, спринт 10 «Итоговый проект»: полный релизный цикл продукта — infrastructure, pipeline, environments, monitoring/logging.",
+        "requirement_interpretation": "required",
+        "requirement_note": "Interpretation of exact source route text, which is preserved in route."
+      }
+    ],
+    "theory": [
+      "• Повторить карту знаний: network → Linux → Git → Docker → CI/CD → IaC → Ansible → Kubernetes → observability.",
+      "• Отдельно пройти типовые вопросы собеседований из roadmap.",
+      "• Выявить 5 слабых тем и сформировать следующий персональный цикл обучения.",
+      "• Оформить портфолио проекта и инженерную документацию."
+    ],
+    "practice": [
+      "• Итог: Git repository + Terraform + Ansible + Docker + CI/CD + Kubernetes/Helm + monitoring/logging.",
+      "• Смоделировать incident и пройти путь detection → troubleshooting → fix → deploy.",
+      "• Сделать финальный self-review: что можешь выполнить без подсказки."
+    ],
+    "outcome": "Это не «конец DevOps», а точка, где уже есть цельный фундамент для Junior/Junior+ и дальнейшей специализации.",
+    "source_table_index": 60
+  }
+]

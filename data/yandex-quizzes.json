@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "ya-01-01-q1",
+    "lessonId": "ya-01-01",
+    "question": "Задание 1 из 6 Вопрос с подвохом. Что из этого MVP?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-01-q2",
+    "lessonId": "ya-01-01",
+    "question": "Задание 2 Соотнесите действия внутри команды с этапом жизненного цикла ПО из выпадающего списка",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-01-01-q3",
+    "lessonId": "ya-01-01",
+    "question": "Задание 3 Перетащите карточку на правильную модель",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-01-01-q4",
+    "lessonId": "ya-01-01",
+    "question": "Задание 4 Для чего предназначен MVP?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-01-q5",
+    "lessonId": "ya-01-01",
+    "question": "Задание 5 Жизненный цикл ПО — это:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-01-q6",
+    "lessonId": "ya-01-01",
+    "question": "Задание 6 Для чего нужны методологии разработки ПО?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q1",
+    "lessonId": "ya-01-02",
+    "question": "Задание 1 из 7 Осторожно, рушится четвёртая стена! Как вы думаете, в чём здесь проблема?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q2",
+    "lessonId": "ya-01-02",
+    "question": "Задание 2 А вы готовы назвать преимущества Git перед FTP?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q3",
+    "lessonId": "ya-01-02",
+    "question": "Задание 3 Какой командой можно получить изменения в удалённом репозитории для текущей ветки и слить их с локальным репозиторием?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q4",
+    "lessonId": "ya-01-02",
+    "question": "Задание 4 Вы работаете с репозиторием, который оставил на рабочем компьютере коллега. Вы создали новый файл, после чего выполнили команды: git add myfile.c, git commit -m ‘Added myfile.c’ и git push. После выполнения команд ошибки не было, но в центральном репозитории новый файл так и не появился. Что можно сделать в такой ситуации?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q5",
+    "lessonId": "ya-01-02",
+    "question": "Задание 5 А в чём отличие git revert от git reset?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q6",
+    "lessonId": "ya-01-02",
+    "question": "Задание 6: Выберите верное утверждение:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-02-q7",
+    "lessonId": "ya-01-02",
+    "question": "Задание 7 Чтобы запомнить суть этих трёх моделей, соотнесите характеристики подходов к разработке с конкретной моделью ветвления",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-01-05-q1",
+    "lessonId": "ya-01-05",
+    "question": "Задание 1 из 9 Выберите правильное определение концепции бережливого производства",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q2",
+    "lessonId": "ya-01-05",
+    "question": "Задание 2 В чём основные идеи Kaidzen?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q3",
+    "lessonId": "ya-01-05",
+    "question": "Задание 3 Что такое muda?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q4",
+    "lessonId": "ya-01-05",
+    "question": "Задание 4 В чём ключевая ценность любого мессенджера для пользователя?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q5",
+    "lessonId": "ya-01-05",
+    "question": "Задание 5 Расположите по порядку все принципы организации бережливого производства на примере продукта «мессенджер»:",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-01-05-q6",
+    "lessonId": "ya-01-05",
+    "question": "Задание 6 Что из этого является ключевой ценностью для сервиса такси?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q7",
+    "lessonId": "ya-01-05",
+    "question": "Задание 7 Действия или операции, не приносящие ценность, которые можно исключить из процесса, не нанося вреда результату:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-01-05-q8",
+    "lessonId": "ya-01-05",
+    "question": "Задание 8 Соотнесите производственные ситуации с видами muda",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-01-05-q9",
+    "lessonId": "ya-01-05",
+    "question": "Задание 9 Расположите в правильном порядке шаги, отражающие процесс построения бережливого производства:",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-01-05-q10",
+    "lessonId": "ya-01-05",
+    "question": "Теперь вы знаете, над чем стоит работать!",
+    "format": "quiz quiz_answered quiz_type_feedback quiz_blocking  _type_quiz-feedback _wide"
+  },
+  {
+    "id": "ya-01-05-q11",
+    "lessonId": "ya-01-05",
+    "question": "Надеемся, вы претворите в жизнь то, что придумали!",
+    "format": "quiz quiz_answered quiz_type_feedback quiz_blocking  _type_quiz-feedback _wide"
+  },
+  {
+    "id": "ya-01-08-q1",
+    "lessonId": "ya-01-08",
+    "question": "3 — 3",
+    "format": "quiz quiz_answered quiz_type_feedback quiz_blocking  _type_quiz-feedback _wide"
+  },
+  {
+    "id": "ya-02-01-q1",
+    "lessonId": "ya-02-01",
+    "question": "Задание 1 из 5 Так в чём же проблема?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-01-q2",
+    "lessonId": "ya-02-01",
+    "question": "Задание 2 Теперь понятно, что сбоит у нас в компании — но почему так происходит?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-01-q3",
+    "lessonId": "ya-02-01",
+    "question": "Задание 3 Хорошо, с причинами разобрались. Как будем исправлять ситуацию?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-01-q4",
+    "lessonId": "ya-02-01",
+    "question": "Задание 4 Почему же сотрудники сами не пытаются решать проблемы, находящиеся на стыке компетенций отделов?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-01-q5",
+    "lessonId": "ya-02-01",
+    "question": "Задание 5 А как сделать, чтобы сложные проблемы находили решение?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-02-q1",
+    "lessonId": "ya-02-02",
+    "question": "Ситуация 1. Сбор и анализ обратной связи от пользователей Вы работаете в команде бэкенда популярной социальной сети. Имеет ли смысл, с точки зрения ценностей DevOps, кому-то из вашей команды следить (и как часто) за отзывами пользователей о вашем сервисе?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-02-q2",
+    "lessonId": "ya-02-02",
+    "question": "Ситуация 2. Стоит ли тратить время на задачи, не приносящие видимого результата для пользователей? Соответствует ли следующее утверждение ценностям DevOps: «Для того чтобы пользователи быстрее получали новые фичи, команда может пренебречь задачами, не имеющими прямого отношения к новому функционалу, например, тестами, инфраструктурой или рефакторингом.»?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-02-q3",
+    "lessonId": "ya-02-02",
+    "question": "Ситуация 3. «Тестируешь на проде??? Ты в своём уме?!» Опираясь на ценности DevOps, что вы можете сказать о практике тестирования новых фич в продакшене?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-02-q4",
+    "lessonId": "ya-02-02",
+    "question": "Ситуация 4. Всё взорвалось. Кто виноват и что делать? Сервис, за который отвечает ваша команда, был недоступен все выходные. Вы узнаёте об этом в понедельник утром из ленты новостей по пути на работу. В вашей команде есть система дежурств, в которой мониторинг сервиса работает плохо, и поэтому в обязанности дежурного входит периодическая ручная проверка доступности сервиса. Выйдя из метро, вы встречаете дежурного и CTO компании — ни один из них не знает о проблеме. Ваши действия?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-02-q5",
+    "lessonId": "ya-02-02",
+    "question": "Бабуля",
+    "format": "quiz quiz_answered quiz_type_chat quiz_blocking  _type_quiz-chat _wide"
+  },
+  {
+    "id": "ya-02-03-q1",
+    "lessonId": "ya-02-03",
+    "question": "Задание 1 из 4 С какой частотой оптимальнее делать релизы?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-03-q2",
+    "lessonId": "ya-02-03",
+    "question": "Задание 2 Восстановите хронологический порядок событий",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-02-03-q3",
+    "lessonId": "ya-02-03",
+    "question": "Задание 3 Какие действия воспроизводит наш пайплайн?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-04-q1",
+    "lessonId": "ya-02-04",
+    "question": "Задание 1 из 5 Выберите верные утверждения о сравнении GitLab с Jenkins",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-04-q2",
+    "lessonId": "ya-02-04",
+    "question": "Задание 2 Что нужно сделать чтобы запустилась автосборка в GitLab?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-04-q3",
+    "lessonId": "ya-02-04",
+    "question": "Задание 3 Что такое Container Registry?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-04-q4",
+    "lessonId": "ya-02-04",
+    "question": "Задание 4 Какие компоненты входят в состав GitLab?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-04-q5",
+    "lessonId": "ya-02-04",
+    "question": "Задание 5 Какие типы файлов могут сохраняться как артефакт?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-05-q1",
+    "lessonId": "ya-02-05",
+    "question": "Задание 1 из 3 Для чего нужны стандарты оформления кода?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-02-05-q2",
+    "lessonId": "ya-02-05",
+    "question": "Задание 2 Выберите правильный подход для проверки кода на уязвимости в соответствии с описанием",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-02-05-q3",
+    "lessonId": "ya-02-05",
+    "question": "Задание 3 Какие инструменты для анализа кода можно использовать в GitLab?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-01-q1",
+    "lessonId": "ya-03-01",
+    "question": "Задание 2 Что хранится в файле /etc/shadow?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-01-q2",
+    "lessonId": "ya-03-01",
+    "question": "Задание 3 Что изменится в результате исполнения команды, если мы выполним её после useradd? Скопировать кодSHELL [sandbox:~]$ sudo usermod -aG jarservice jarservice",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-01-q3",
+    "lessonId": "ya-03-01",
+    "question": "Задание 5 Что нужно прописать в папке /etc/sudoers.d/, чтобы пользователь jarservice мог без пароля переходить в root, подтягивая переменные окружения root, но не более того?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-01-q4",
+    "lessonId": "ya-03-01",
+    "question": "Сисадмин Гриша",
+    "format": "quiz quiz_answered quiz_type_chat quiz_blocking  _type_quiz-chat _wide"
+  },
+  {
+    "id": "ya-03-01-q5",
+    "lessonId": "ya-03-01",
+    "question": "Задание 7 Как посмотреть последние 20 записей в системном журнале логов для monitoring.service?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-02-q1",
+    "lessonId": "ya-03-02",
+    "question": "Задание 1 из 3 Перетащите особенности на соответствующий стандарт разметки:",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-03-02-q2",
+    "lessonId": "ya-03-02",
+    "question": "Задание 2 Выберите команду, которая создаст логический том с именем sales_data, типом linear, размером 50% от свободного места в виртуальной группе dataVG объёмом 4 ГБ",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-02-q3",
+    "lessonId": "ya-03-02",
+    "question": "Сисадмин Гриша",
+    "format": "quiz quiz_answered quiz_type_chat quiz_blocking  _type_quiz-chat _wide"
+  },
+  {
+    "id": "ya-03-03-q1",
+    "lessonId": "ya-03-03",
+    "question": "Задание 1 из 8",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-03-03-q2",
+    "lessonId": "ya-03-03",
+    "question": "Задание 2 Выберите правильный вариант, в котором указано, как в ncdu отображаются каталоги:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-03-q3",
+    "lessonId": "ya-03-03",
+    "question": "Задание 4 Выберите правильные варианты развития событий:",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-03-03-q4",
+    "lessonId": "ya-03-03",
+    "question": "Задание 6 Расположите в правильном порядке перенаправление выводов, чтобы получить в текстовом файле всех пользователей, отсортированных и отфильтрованных по символу u в имени: Скопировать кодSHELL * | * | *",
+    "format": "quiz quiz_type_choice quiz_answered  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-03-03-q5",
+    "lessonId": "ya-03-03",
+    "question": "Задание 7 Недавно вы сталкивались с примером вывода команды id: uid=1000(makky) gid=1001(makky) groups=1001(makky),10(wheel),48(docker),304(vboxusers),443(sudo). Укажите, чему соответствуют номера в выводе этой команды?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-03-q6",
+    "lessonId": "ya-03-03",
+    "question": "Задание 8 Посмотрите на указанные ниже команды и выберите пользователей, которые могут запустить созданный Bash-скрипт: Скопировать кодSHELL echo \"ls /tmp\" > script.sh chmod +x script.sh setfacl -m u:max:rw script.sh setfacl -m u:tanya:rwx script.sh setfacl -m u:roma:r script.sh setfacl -m u:dima:rwx script.sh setfacl -x u:dima script.sh",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q1",
+    "lessonId": "ya-03-04",
+    "question": "Задание 1 из 6 Выберите команду, с помощью которой — наберите воздуха — можно вывести на экран строку с состоянием только приложения ssh, чтобы получить информацию о pid и используемому приложением порту, из-под пользователя ubuntu и только для IPv4.",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q2",
+    "lessonId": "ya-03-04",
+    "question": "Задание 2 Расставьте правильный порядок команд, чтобы пользователи могли подключиться в Nginx, работающему на 80 порту из сети 172.1.50.0/24, но с учётом того, что правила изначально пусты. Скорее всего, вам понадобится команда для удаления настроенного правила. И вот она: iptables -D INPUT <номер правила>",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-03-04-q3",
+    "lessonId": "ya-03-04",
+    "question": "Задание 3 Выберите команду, которая запретит подключаться извне группе пользователей с IP (5.3.177.173, 173.3.177.5, 177.3.5.173) на порт 5432, на любой интерфейс, по протоколу TCP, но не затронет других пользователей.",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q4",
+    "lessonId": "ya-03-04",
+    "question": "Задание 4 Выберите команду, которая запретит все исходящие вызовы для порта 443 по протоколу tcp:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q5",
+    "lessonId": "ya-03-04",
+    "question": "Задание 5 Выберите правильный вариант переменной из конфигурационного файла /etc/ssh/sshd_config, которая разрешит подключаться к системе по ssh из-под пользователя root:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q6",
+    "lessonId": "ya-03-04",
+    "question": "Задание 6 Выберите правильные IP-адреса, в которые будет резолвиться сайт practicum.yandex.ru",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-04-q7",
+    "lessonId": "ya-03-04",
+    "question": "Задание 7 Представим, что у вас на локальной машине был установлен Linux, и вы хотите на NFS-сервере, развёрнутом в Яндекс.Облаке, настроить возможность подмонтироваться к папке /var/log для вашего ПК с правами на редактирование. Как бы в этом случае выглядела ваша строка настройки в файле exports?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-05-q1",
+    "lessonId": "ya-03-05",
+    "question": "Задание 1 из 5 Почему не стоит размещать много приложений на один сервер?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-05-q2",
+    "lessonId": "ya-03-05",
+    "question": "Задание 2 Какой гипервизор лучше других?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-05-q3",
+    "lessonId": "ya-03-05",
+    "question": "Задание 3 Какую проблему решает «инфраструктура как код»?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-05-q4",
+    "lessonId": "ya-03-05",
+    "question": "Задание 4 Выберите из списка, какие команды в Vagrant не существуют? Можно подсмотреть в справке, если ещё не заглядывали туда",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-03-05-q5",
+    "lessonId": "ya-03-05",
+    "question": "Задание 5 Выберите, для чего в основном используется Alpine?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-01-q1",
+    "lessonId": "ya-04-01",
+    "question": "Задание 1 из 6 А знаете что? У нас тоже есть потребности в строительстве VSM, потому что продвижение ПО к релизу очень похоже на выкатку обучающего курса! Погрузитесь в нашу реальность и выберите из списка процессов, что можно добавить при составлении Value Stream Map:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-01-q2",
+    "lessonId": "ya-04-01",
+    "question": "Задание 2 Какие варианты (карточки), по-вашему, могут приблизить Cycle Time к Value Added Time, например, за счёт автоматизации, а какие — нет? Перетяните их в соответствующие секции",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-04-01-q3",
+    "lessonId": "ya-04-01",
+    "question": "Задание 3 Для чего нужна VSM?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-01-q4",
+    "lessonId": "ya-04-01",
+    "question": "Задание 4 Какие из этих метрик используются в VSM? Помните, что в теле урока мы привели примеры только основных метрик, а все остальные есть в дополнительном материале.",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-01-q5",
+    "lessonId": "ya-04-01",
+    "question": "Задание 5 Расположите этапы разработки новой фичи в таком порядке, в котором они были бы отражены на карте VSM, ориентируясь на информацию от коллег Арсения",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-04-01-q6",
+    "lessonId": "ya-04-01",
+    "question": "Задание 6",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-04-02-q1",
+    "lessonId": "ya-04-02",
+    "question": "Задание 1 Представьте, что именно вы автор тестового фреймворка TestNG, которого поддержка накопившегося легаси сковывает по рукам и ногам. Хочется отбросить его и окунуться в разработку новых модных фич. Пару вечностей спустя, пришёл тот день, когда вы решились опубликовать итоги своей работы. Введите номер следующей версии, которую хотите отправить на релиз, чтобы сообщество не закидало вас помидорами за несоблюдение SemVer. Пожалуйста, введите ответ вида x.x.x без лишних символов вроде пробелов.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-04-02-q2",
+    "lessonId": "ya-04-02",
+    "question": "Задание 2 Подумайте над тем, какие типы репозиториев зашиты в Nexus. Укажите, что лучше всего использовать для хранения пакетов в дефолтном пакетном менеджере Linux?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-02-q3",
+    "lessonId": "ya-04-02",
+    "question": "Задание 5 В настройках GitLab, в процессе конфигурирования переменных для CI/CD, встречаются флаги Protected и Mask. Выберите тот, который сделает ваши пароли, секретные данные или другие секреты «звёздочками» в консоли джобы.",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-02-q4",
+    "lessonId": "ya-04-02",
+    "question": "Задание 6 Зайдите в раздел настроек Nexus и посмотрите конфигурацию Blob storage. Укажите столбцы в таблице с отображением существующих Blob storage:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-02-q5",
+    "lessonId": "ya-04-02",
+    "question": "Задание 7 Если вы захотите создать новый репозиторий в Nexus типа maven2/r/raw/yum/pypi, какие три типа будут доступны?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-02-q6",
+    "lessonId": "ya-04-02",
+    "question": "Задание 8 Почему в некоторых репозиториях нашего Nexus можно задеплоить одну и ту же версию заново, а в других нужно проставлять новый номер?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-03-q1",
+    "lessonId": "ya-04-03",
+    "question": "Задание 1 Что дают downstream-пайплайны в GitLab?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-03-q2",
+    "lessonId": "ya-04-03",
+    "question": "Задание 2 Представьте, что мы внесли изменения только в корневой файл .gitlab-ci.yml сосисочной, то есть в основной файл пайплайна. Что получим на выходе, если добавим: Скопировать кодYAML frontend: script: - echo \"test\"",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-03-q3",
+    "lessonId": "ya-04-03",
+    "question": "Задание 3 Изучите внимательно код пайплайна Арсения и скажите, в чём ошибка?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-03-q4",
+    "lessonId": "ya-04-03",
+    "question": "Задание 4 Чем Continuous Delivery отличается от Continuous Deployment?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q1",
+    "lessonId": "ya-04-04",
+    "question": "Задание 1 из 8 Как вы думаете, нужно ли для Java создавать некое изолирование окружения для сохранения зависимостей отдельно?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q2",
+    "lessonId": "ya-04-04",
+    "question": "Задание 2 Посмотрите на пример файла настройки Spring Boot приложения — application.properties: Скопировать код spring.datasource.url=jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT}/movies spring.datasource.username=${MYSQL_USER} spring.datasource.password=${MYSQL_PASSWORD} Напишите, почему этот конфигурационный файл не соответствует фактору «Конфигурация»?",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-04-04-q3",
+    "lessonId": "ya-04-04",
+    "question": "Задание 3 Как вы думаете, к какой стадии относится операция «rollback»?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q4",
+    "lessonId": "ya-04-04",
+    "question": "Задание 4 Как вы думаете, является ли сохранение тела http-запроса на файловую систему перед сохранением его в базу нарушением одного из факторов?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q5",
+    "lessonId": "ya-04-04",
+    "question": "Задание 5 Представим ситуацию, когда наше приложение работает с базой PostgreSQL. На прод окружении — это база данных, развёрнутая на виртуальной машине. На тестовых серверах — в виде облачного решения PaaS, а для dev окружений — стартует Docker-контейнер. Как вы думаете, являются ли эти базы данных, с точки зрения 12 факторов, достаточно похожими окружениями?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q6",
+    "lessonId": "ya-04-04",
+    "question": "Задание 6 Выберите атрибуты, которые вам кажутся важными в контексте 12 факторов при создании логирования в приложении:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-04-q7",
+    "lessonId": "ya-04-04",
+    "question": "Задание 7 Перечислите как можно больше зависимостей приложения сосисочной (бэк и фронт). На вашем месте, мы бы проверили pom.xml в jar'нике.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-04-04-q8",
+    "lessonId": "ya-04-04",
+    "question": "Задание 8 Распишите подробно, какие шаги в CI/CD сосисочной относятся к сборке, релизу и выполнению?",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-04-05-q1",
+    "lessonId": "ya-04-05",
+    "question": "Задание 1 из 4 Какой тип бэкапа самый быстрый при восстановлении?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-05-q2",
+    "lessonId": "ya-04-05",
+    "question": "Задание 2 У админов из другой компании вышла многочасовая заминка с репликацией данных PostgreSQL между мастером и слейвом. Они решили синхронизировать данные между базами вручную. Реплику-то они остановили, но теперь им надо помочь с выбором правильной команды для синхронизации данных, запущенной с мастера:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-05-q3",
+    "lessonId": "ya-04-05",
+    "question": "Задание 3 Укажите, какие три строчки надо написать в cron, чтобы сформировать расписание для ротации бэкапов по методике «дед-отец-сын». Старт сына в 3 утра ровно, отца — 4 утра, деда — 5 утра. Чтобы не мучаться с расчётом последнего дня в месяце, который каждый раз меняется, напишите 28-е. Саму команду для запуска указывать не нужно. Пожалуйста, запишите ответ в строку, без лишних пробелов и указания языка ввода, например: ответ.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-04-05-q4",
+    "lessonId": "ya-04-05",
+    "question": "Задание 4 Посмотрите дефолтные настройки logrotate для логов syslog и выберите значение атрибута rotate",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-04-05-q5",
+    "lessonId": "ya-04-05",
+    "question": "Произведите расчёт Какого размера хранилище нам надо развернуть, чтобы цикл бэкапирования включал 1 месяц (предположим, что месяц у нас ровно 28 дней, то есть 4 недели)? В качестве ответа нужно ввести только примерные цифры.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-05-01-q1",
+    "lessonId": "ya-05-01",
+    "question": "Задание 1 из 5 Перетащите особенности на соответствующий инструмент:",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-05-01-q2",
+    "lessonId": "ya-05-01",
+    "question": "Задание 2 Какое ещё преимущество несёт IaC?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-01-q3",
+    "lessonId": "ya-05-01",
+    "question": "Задание 3 В датацентре компании «Лукоморье-Телеком» произошёл пожар, уничтоживший несколько серверных стоек. Пресс-секретарь сообщил, что компания имеет резерв серверных стоек, введённых в эксплуатацию, сетевая инфраструктура не пострадала и никакие данные не утеряны. Они надеются полностью восстановить обслуживание пользователей в течение нескольких дней. Как вы думаете какой из типов серверов находился в сгоревших стойках?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-01-q4",
+    "lessonId": "ya-05-01",
+    "question": "Задание 4 А какой тип серверов вы бы выбрали для нашего магазина сосисок?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-01-q5",
+    "lessonId": "ya-05-01",
+    "question": "Задание 5 Какие свойства должны быть у системы управления конфигурациями?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q1",
+    "lessonId": "ya-05-02",
+    "question": "Задание 1 из 8 Какая команда Terraform изменяет инфраструктуру в облаке?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q2",
+    "lessonId": "ya-05-02",
+    "question": "Задание 2 А можно ли как-то заранее сохранить план изменений ресурсов и передать его потом terraform apply?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q3",
+    "lessonId": "ya-05-02",
+    "question": "Задание 5 Как можно узнать image_id и subnet_id?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q4",
+    "lessonId": "ya-05-02",
+    "question": "Задание 6 Можно ли вручную перенастраивать ресурсы, управлямые Terraform?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q5",
+    "lessonId": "ya-05-02",
+    "question": "Задание 7 Можно ли не задавать обязательное поле subnet_id?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-02-q6",
+    "lessonId": "ya-05-02",
+    "question": "Задание 8 А какие ещё бывают провайдеры Terraform?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-03-q1",
+    "lessonId": "ya-05-03",
+    "question": "Задание 1 из 3 Есть переменная instance_zone. В variable её значение ru-central-a, а ещё есть файл testing.tfvars, где значение установлено в ru-central-c. Какое значение будет у переменной instance_zone, если выполним terraform apply -var-file=\"testing.tfvars?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-03-q2",
+    "lessonId": "ya-05-03",
+    "question": "Задание 2 Можно ли переименовать ресурс без удаления его «старой» версии?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-03-q3",
+    "lessonId": "ya-05-03",
+    "question": "Задание 3 Что увидим при выполнении terrafrom plan для последнего примера?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q1",
+    "lessonId": "ya-05-05",
+    "question": "Задание 1 Что такое «дрифт конфигурации»?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q2",
+    "lessonId": "ya-05-05",
+    "question": "Задание 2 Подумайте, какой из Ansible-модулей обладает свойством идемпотентности?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q3",
+    "lessonId": "ya-05-05",
+    "question": "Задание 3 Для чего нужен Ansible Task?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q4",
+    "lessonId": "ya-05-05",
+    "question": "Задание 4 Для чего нужны Ansible роли?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q5",
+    "lessonId": "ya-05-05",
+    "question": "Задание 5 Что делает Ansible play?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q6",
+    "lessonId": "ya-05-05",
+    "question": "Задание 6",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-05-05-q7",
+    "lessonId": "ya-05-05",
+    "question": "Задание 7 Как организовать inventory-файл для инфраструктуры в облаке?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q8",
+    "lessonId": "ya-05-05",
+    "question": "Задание 9 Как получить информацию о дисках на виртуальной машине?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q9",
+    "lessonId": "ya-05-05",
+    "question": "Задание 10 Сохраните в переменную memory_free количество мегабайт свободной памяти на хосте:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-05-05-q10",
+    "lessonId": "ya-05-05",
+    "question": "Задание 11 Выберите переменные, которые нужно зашифровать с помощью ansible-vault:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q1",
+    "lessonId": "ya-06-01",
+    "question": "Замечаете ли вы какие-нибудь аномалии?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q2",
+    "lessonId": "ya-06-01",
+    "question": "Бросается ли в глаза что-нибудь подозрительное?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q3",
+    "lessonId": "ya-06-01",
+    "question": "Сколько времени занимает выполнение запроса в БД?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q4",
+    "lessonId": "ya-06-01",
+    "question": "Нужно ли создавать в БД сосисочной индекс для адресов картинок? Скопировать кодSQL CREATE INDEX idx_pic ON product(picture_url);",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q5",
+    "lessonId": "ya-06-01",
+    "question": "Стало ли лучше?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-06-01-q6",
+    "lessonId": "ya-06-01",
+    "question": "Перетяните карточки со свойствами вертикального и горизонтального масштабирования в правильные «корзинки»",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-06-02-q1",
+    "lessonId": "ya-06-02",
+    "question": "Задание 1 из 3 Настройте правильный порядок запуска скриптов при старте Flyway",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-06-02-q2",
+    "lessonId": "ya-06-02",
+    "question": "Задание 2",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-06-02-q3",
+    "lessonId": "ya-06-02",
+    "question": "Задание 3 Выберите команду для старта миграции Flyway в базе PostgreSQL. В строке должны быть все необходимые атрибуты для подключения:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q1",
+    "lessonId": "ya-07-01",
+    "question": "Задание 1 Чем отличается контейнер от виртуальной машины?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q2",
+    "lessonId": "ya-07-01",
+    "question": "Задание 2 А что насчёт отличий по потреблению ресурсов?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q3",
+    "lessonId": "ya-07-01",
+    "question": "Задание 3 Назовите преимущества использования контейнеров?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q4",
+    "lessonId": "ya-07-01",
+    "question": "Задание 4 Как Docker реализует изоляцию процессов?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q5",
+    "lessonId": "ya-07-01",
+    "question": "Задание 5 Какие преимущества в работе обеспечивает Docker?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-01-q6",
+    "lessonId": "ya-07-01",
+    "question": "Задание 6 Арсений создал и запустил Docker-контейнер, зашёл в него через docker exec -it, создал там файл и остановил контейнер. Что будет с файлом, если опять запустить этот контейнер?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-02-q1",
+    "lessonId": "ya-07-02",
+    "question": "Задание 1 Чем образ отличается от контейнера?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-02-q2",
+    "lessonId": "ya-07-02",
+    "question": "Задание 2 Что даёт Union FS?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-02-q3",
+    "lessonId": "ya-07-02",
+    "question": "Задание 3 Можно ли создать новый образ на основе запущенного контейнера, сохранив в него все изменения, которые были сделаны в контейнере?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-02-q4",
+    "lessonId": "ya-07-02",
+    "question": "Задание 4 Сколько слоёв будет в образе, созданном по Dockerfile выше, если debian:buster состоит из двух слоёв?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-02-q5",
+    "lessonId": "ya-07-02",
+    "question": "Задание 4 Что такое Докерфайл?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q1",
+    "lessonId": "ya-07-05",
+    "question": "Задание 1 из 9",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-07-05-q2",
+    "lessonId": "ya-07-05",
+    "question": "Задание 2 Перетяните карточку с реализацией технологии в соответствующую «корзинку»",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-07-05-q3",
+    "lessonId": "ya-07-05",
+    "question": "Задание 3 Как работает ISCSI?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q4",
+    "lessonId": "ya-07-05",
+    "question": "Задание 4 Что такое файл на диске?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q5",
+    "lessonId": "ya-07-05",
+    "question": "Задание 5 Какой основной минус у файловой системы ext4?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q6",
+    "lessonId": "ya-07-05",
+    "question": "Задание 6 Какую проблему нужно решить при одновременном доступе к данным нескольких потребителей?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q7",
+    "lessonId": "ya-07-05",
+    "question": "Задание 7 Какие могут быть режимы доступа к дисковым томам с несколькими потребителями?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-05-q8",
+    "lessonId": "ya-07-05",
+    "question": "Задание 8 Распределите особенности по соответствующим типам хранилищ",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-07-05-q9",
+    "lessonId": "ya-07-05",
+    "question": "Задание 9 Какие типы данных хранить в S3?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-07-07-q1",
+    "lessonId": "ya-07-07",
+    "question": "Задание 1 из 2 Забросьте в корзинку те функции, которые Vault действительно умеет делать:",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-07-07-q2",
+    "lessonId": "ya-07-07",
+    "question": "Задание 2 Выберите правильное утверждение:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-08-01-q1",
+    "lessonId": "ya-08-01",
+    "question": "Задание 1 Выберите, что из этого является микросервисной архитектурой?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-08-01-q2",
+    "lessonId": "ya-08-01",
+    "question": "Задание 2 Для чего нужен PoC?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-08-01-q3",
+    "lessonId": "ya-08-01",
+    "question": "Задание 3 Монолит или микросервисы? Правильно распределите особенности технологий по «корзинкам»",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-08-04-q1",
+    "lessonId": "ya-08-04",
+    "question": "Задание 1",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-08-04-q2",
+    "lessonId": "ya-08-04",
+    "question": "Задание 2 При работе какого алгоритма балансировки нагрузки запросы с одного и того же IP-адреса клиента попадают на один и тот же бэкенд-сервер?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-08-04-q3",
+    "lessonId": "ya-08-04",
+    "question": "Задание 3 Какой тип прокси выбрать, чтобы снизить нагрузку на веб-сервер или веб-приложение?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-08-07-q1",
+    "lessonId": "ya-08-07",
+    "question": "Задание 1 из 2 Расставьте стратегии развёртывания по убыванию риска",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-08-07-q2",
+    "lessonId": "ya-08-07",
+    "question": "Задание 2 Какие из этих стратегий предполагают шаг тестирования на продуктивном трафике?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q1",
+    "lessonId": "ya-09-01",
+    "question": "Задание 1 из 10",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-01-q2",
+    "lessonId": "ya-09-01",
+    "question": "Задание 2 Вопрос в зал: какие проблемы помогают решить контейнеры?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q3",
+    "lessonId": "ya-09-01",
+    "question": "Задание 3",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-01-q4",
+    "lessonId": "ya-09-01",
+    "question": "Задание 4 Какие проблемы решает контейнеризация?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q5",
+    "lessonId": "ya-09-01",
+    "question": "Задание 5 Теперь докладчик решил помучать аудиторию: «Как думаете, какие возможности предоставляет оркестратор контейнеров?»",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q6",
+    "lessonId": "ya-09-01",
+    "question": "Задание 6 Можете ли вы соспоставить ключевые особенности и нужный сервис?",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-09-01-q7",
+    "lessonId": "ya-09-01",
+    "question": "Задание 7",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-01-q8",
+    "lessonId": "ya-09-01",
+    "question": "Задание 8 Какое утверждение по теме k8s является верным?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q9",
+    "lessonId": "ya-09-01",
+    "question": "Задание 9 [Вопрос с подвохом] Какой оркестратор самый-самый?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-01-q10",
+    "lessonId": "ya-09-01",
+    "question": "Задание 10 Какие инструменты запуска контейнеров доступны на Windows?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-02-q1",
+    "lessonId": "ya-09-02",
+    "question": "Задание 1 Перетяните карточки с описанием на соответствующие инструменты",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-09-02-q2",
+    "lessonId": "ya-09-02",
+    "question": "Задание 2 Что такое контекст в kubeconfig?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-02-q3",
+    "lessonId": "ya-09-02",
+    "question": "Задание 3 Для чего используется kubeconfig?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-02-q4",
+    "lessonId": "ya-09-02",
+    "question": "Задание 4 Пропишите команду, которая выведет список подов (pods) в текущем контексте?",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-09-03-q1",
+    "lessonId": "ya-09-03",
+    "question": "Задание 2",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-03-q2",
+    "lessonId": "ya-09-03",
+    "question": "Задание 3",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-03-q3",
+    "lessonId": "ya-09-03",
+    "question": "Задание 5 С какими средами выполнения контейнеров может работать Kubernetes?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-03-q4",
+    "lessonId": "ya-09-03",
+    "question": "Задание 6 Как взаимодействуют компоненты кластера Kubernetes между собой?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-04-q1",
+    "lessonId": "ya-09-04",
+    "question": "Задание 1 из 5 Выберите, для чего нужен атрибут namespace, если указать его в манифесте Pod в metadata.namespace?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-04-q2",
+    "lessonId": "ya-09-04",
+    "question": "Задание 2 Что произойдёт с Pod, если указать в resources.requests.memory значение больше, чем есть на любой из Node? А если в кластере несколько Node, то ресурсов хватит?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-04-q3",
+    "lessonId": "ya-09-04",
+    "question": "Задание 3 Укажите, какие данные можно получить, если запросить детальную информацию о Node?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-04-q4",
+    "lessonId": "ya-09-04",
+    "question": "Задание 4 Выберите атрибуты, которые надо добавить к команде kubectl logs, чтобы получить логи Nginx за последние 10 часов и сохранить их в /tmp/kuber.log",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-04-q5",
+    "lessonId": "ya-09-04",
+    "question": "Задание 5 Что будет, если мы укажем неверное соотношение между Диском Яндекс.Облака и PersistentVolume в большую сторону для PersistentVolume?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-05-q1",
+    "lessonId": "ya-09-05",
+    "question": "Задание 1 из 8",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-05-q2",
+    "lessonId": "ya-09-05",
+    "question": "Задание 2 Выберите правильную команду для каждого действия",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-09-05-q3",
+    "lessonId": "ya-09-05",
+    "question": "Задание 3",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-05-q4",
+    "lessonId": "ya-09-05",
+    "question": "Задание 4 Подходит ли Deployment для развёртывания кластера БД в Kubernetes?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-05-q5",
+    "lessonId": "ya-09-05",
+    "question": "Задание 5 Какие проблемы могут быть при использовании решения Deployment'а?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-05-q6",
+    "lessonId": "ya-09-05",
+    "question": "Задание 6",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-09-05-q7",
+    "lessonId": "ya-09-05",
+    "question": "Задание 7 Что будет, если в манифесте указать backoffLimit, но не указать restartPolicy и activeDeadlineSeconds?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-05-q8",
+    "lessonId": "ya-09-05",
+    "question": "Задание 8 Что будет, если такая CronJob поработает неделю?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-06-q1",
+    "lessonId": "ya-09-06",
+    "question": "Задание 1 Какие задачи могут решать CNI-плагины?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-06-q2",
+    "lessonId": "ya-09-06",
+    "question": "Задание 2 Подумайте, почему сервис типа NodePort не стоит использовать для внешнего доступа к приложению в Kubernetes?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-06-q3",
+    "lessonId": "ya-09-06",
+    "question": "Задание 3 Подумайте, какие из этих технологий можно использовать в Ingress Contoller?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-08-q1",
+    "lessonId": "ya-09-08",
+    "question": "Задание 1 из 3 А как бы вы ответили на вопрос Арсения? В смысле, что будет происходить с историей деплоев, если несколько раз вызывать kubectl apply, не меняя сам yaml-файл?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-08-q2",
+    "lessonId": "ya-09-08",
+    "question": "Задание 2 Что будет, если мы укажем в VPA updateMode: Auto, а в Deployment значения CPU и Memory, превышающие по запросам любой из Node?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-08-q3",
+    "lessonId": "ya-09-08",
+    "question": "Задание 3 Что произойдёт, если мы попробуем запустить HPA с конфигурацией ниже? Умышленно пропускаем часть параметров за api, name и количество реплик Скопировать кодYAML kind: HorizontalPodAutoscaler spec: scaleTargetRef: apiVersion: apps/v1 kind: Deployment name: backend-report, backend metrics: - type: Resource resource: name: cpu target: type: Utilization averageUtilization: 80",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q1",
+    "lessonId": "ya-09-10",
+    "question": "Задание 1 из 10 Что хранится в чарте?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q2",
+    "lessonId": "ya-09-10",
+    "question": "Задание 2 Для чего используются шаблонизаторы в контексте Kubernetes?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q3",
+    "lessonId": "ya-09-10",
+    "question": "Задание 3 Helm и шаблонизатор — это одно и то же?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q4",
+    "lessonId": "ya-09-10",
+    "question": "Задание 5 Ориентируясь на кусочек YAML в файле values.yaml: Скопировать кодYAML ingress: enabled: true Ответьте на вопрос, как получить значение этой переменной в одном из файлов в templates/?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q5",
+    "lessonId": "ya-09-10",
+    "question": "Задание 6 Как проверить в Kubernetes, что установился новый релиз?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q6",
+    "lessonId": "ya-09-10",
+    "question": "Задание 6 Как можно откатить изменения в Kubernetes кластере без сторонних средств?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q7",
+    "lessonId": "ya-09-10",
+    "question": "Задание 7 Helm-пакеты (чарт в tgz) будем хранить в Helm-репозитории — а куда складывать сами чарты (директорию с метаданными, шаблонами и значениями по умолчанию)?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q8",
+    "lessonId": "ya-09-10",
+    "question": "Задание 8 Можно ли обновить релиз, используя команду helm install?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q9",
+    "lessonId": "ya-09-10",
+    "question": "Задание 9 Можно ли обновить неустановленный релиз?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-10-q10",
+    "lessonId": "ya-09-10",
+    "question": "Задание 10 Можно ли откатиться на удалённый релиз?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-12-q1",
+    "lessonId": "ya-09-12",
+    "question": "Практикум",
+    "format": "quiz quiz_answered quiz_type_chat quiz_blocking  _type_quiz-chat _wide"
+  },
+  {
+    "id": "ya-09-12-q2",
+    "lessonId": "ya-09-12",
+    "question": "Задание 2 Вспомните, какие свойства/преимущества относятся к подходу IaC?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-12-q3",
+    "lessonId": "ya-09-12",
+    "question": "Задание 3 Что будет с кластером Kubernetes и нашими приложениями в нём, если перестанет работать ArgoCD?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-12-q4",
+    "lessonId": "ya-09-12",
+    "question": "Задание 4 Может ли ArgoCD заменить GitLab CI?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-12-q5",
+    "lessonId": "ya-09-12",
+    "question": "Задание 5 Можно ли использовать ArgoCD для работы с несколькими кластерами Kubernetes?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-14-q1",
+    "lessonId": "ya-09-14",
+    "question": "Задание 1 из 4 Что ещё могло бы помочь в образовании облаков?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-14-q2",
+    "lessonId": "ya-09-14",
+    "question": "Задание 2 Может быть, сосисочную не надо куда-либо везти, ведь и на Yandex.Cloud ей неплохо живётся?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-14-q3",
+    "lessonId": "ya-09-14",
+    "question": "Задание 3 Есть приложение, база живёт на вашем сервере под столом, а фронтенд и бэкенд крутятся в публичном облаке. Какой это тип облака?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-09-14-q4",
+    "lessonId": "ya-09-14",
+    "question": "Задание 4 Готова ли сейчас сосисочная к тому, чтобы переехать во внешнее облако?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q1",
+    "lessonId": "ya-10-01",
+    "question": "Задание 1 из 8 Что такое системный журнал?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q2",
+    "lessonId": "ya-10-01",
+    "question": "Задание 2 Все ли приложения пишут логи из коробки?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q3",
+    "lessonId": "ya-10-01",
+    "question": "Задание 3 Как Докер понимает, откуда отображать логи приложения при использовании утилиты docker logs?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q4",
+    "lessonId": "ya-10-01",
+    "question": "Задание 4 Всегда ли удобно смотреть логи в консоли?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q5",
+    "lessonId": "ya-10-01",
+    "question": "Задание 5 Чем логи в json удобнее, чем те же логи в виде строки?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q6",
+    "lessonId": "ya-10-01",
+    "question": "Задание 6 Перетяните лог на соответствующий тип",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-01-q7",
+    "lessonId": "ya-10-01",
+    "question": "Задание 7 Пришёл http-запрос в приложение, в нём есть пачка заголовков: Скопировать код Referer: / Authorization: OAuth fdsjs;y6fgh35ufnkcuabyuv2 User-Agent: curl/7.77.0 Username: vasya Content-type: text/html; charset=utf-8 X-Forwarded-for: 192.168.1.1 Какой заголовок не будем логировать?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-01-q8",
+    "lessonId": "ya-10-01",
+    "question": "Задание 8 Перетяните сервисы на правильную операцию",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-03-q1",
+    "lessonId": "ya-10-03",
+    "question": "Задание 1 из 4 Для чего же нам нужен мониторинг?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-03-q2",
+    "lessonId": "ya-10-03",
+    "question": "Задание 2 Сопоставьте метрики с правильными категориями",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-03-q3",
+    "lessonId": "ya-10-03",
+    "question": "Задание 3 Отметьте правильные высказывания:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-03-q4",
+    "lessonId": "ya-10-03",
+    "question": "Задание 4",
+    "format": "quiz quiz_answered quiz_type_macaroni quiz_blocking  _type_quiz-macaroni _wide"
+  },
+  {
+    "id": "ya-10-04-q1",
+    "lessonId": "ya-10-04",
+    "question": "Задание 1 из 2 Что характерно для Push, а что для Pull модели?",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-04-q2",
+    "lessonId": "ya-10-04",
+    "question": "Задание 2 Какие утверждения верны для Prometheus?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-05-q1",
+    "lessonId": "ya-10-05",
+    "question": "Задание 1 из 7 Выберите наиболее компактный PromQL-запрос для вывода одного временного ряда метрики jvm_buffer_memory_used_bytes:",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-05-q2",
+    "lessonId": "ya-10-05",
+    "question": "Задание 2 Вспомните, чем перцентиль отличается от простого среднего значения?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-05-q3",
+    "lessonId": "ya-10-05",
+    "question": "Задание 3 Подберите подходящие типы для метрик",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-05-q4",
+    "lessonId": "ya-10-05",
+    "question": "Задание 4 Как вы думаете, почему функция rate работает только с типом Counter?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-05-q5",
+    "lessonId": "ya-10-05",
+    "question": "Задание 5 У гипотетического приложения есть метрика-гистограмма http_response_size_bytes для каждого HTTP-эндпоинта. Нам нужно найти значение максимальной скорости роста размера HTTP-ответа за последние 5 минут. Напишите PromQL запрос в текстовом поле ниже.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-10-05-q6",
+    "lessonId": "ya-10-05",
+    "question": "Задание 6 А теперь нам нужно вывести разбивку скоростей роста размера HTTP-ответа за последние 5 минут по эндпоинтам (лейбл endpoint). Напишите PromQL запрос в текстовом поле ниже.",
+    "format": "quiz quiz_answered quiz_type_text quiz_blocking  _type_quiz-text _wide"
+  },
+  {
+    "id": "ya-10-05-q7",
+    "lessonId": "ya-10-05",
+    "question": "Задание 7 Чтобы подвести итоги, отметьте верные высказывания:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-07-q1",
+    "lessonId": "ya-10-07",
+    "question": "Задание 1 из 5 Разложите по корзинкам алерты, ориентируясь на их важность:",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-07-q2",
+    "lessonId": "ya-10-07",
+    "question": "Задание 2 Разложите сообщения об ошибках по способам донесения до дежурного",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-07-q3",
+    "lessonId": "ya-10-07",
+    "question": "Задание 3 Какие проблемы могут быть в метрике среднего времени отклика сайта?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-07-q4",
+    "lessonId": "ya-10-07",
+    "question": "Задание 4 На сервере есть значения load average 3, 3.2, 2.9, 3.5, 4, 3.1, 3.9, 3.9, 3.1, 4. Какое значение будет соответствовать 80% процентилю?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-07-q5",
+    "lessonId": "ya-10-07",
+    "question": "Задание 5 Чего-то не хватает, не так ли?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-09-q1",
+    "lessonId": "ya-10-09",
+    "question": "Задание 1 Вы согласны с таким определением DevOps?",
+    "format": "quiz quiz_options-type_radio quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-09-q2",
+    "lessonId": "ya-10-09",
+    "question": "Задание 2 Вы узнали, что на вашем проекте общение с разработчиками построено через заявки. Как бы вы поступили в этом случае?",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-09-q3",
+    "lessonId": "ya-10-09",
+    "question": "Задание 3 Расставьте этапы производства ПО в правильном порядке",
+    "format": "quiz quiz_type_choice quiz_answered quiz_blocking  _type_quiz-choice _wide"
+  },
+  {
+    "id": "ya-10-09-q4",
+    "lessonId": "ya-10-09",
+    "question": "Задание 4 Выберите процессы, которые не соответствуют подходу DevOps:",
+    "format": "quiz quiz_options-type_checkbox quiz_answered quiz_type_select quiz_blocking  _type_quiz-select _wide"
+  },
+  {
+    "id": "ya-10-09-q5",
+    "lessonId": "ya-10-09",
+    "question": "Задание 5 Распределите особенности для бережливого и небережливого производства",
+    "format": "quiz quiz_answered quiz_type_cards quiz_blocking  _type_quiz-cards _wide"
+  },
+  {
+    "id": "ya-10-09-q6",
+    "lessonId": "ya-10-09",
+    "question": "Гаврила",
+    "format": "quiz quiz_answered quiz_type_chat quiz_blocking  _type_quiz-chat _wide"
+  }
+]

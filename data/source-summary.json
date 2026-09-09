@@ -1,0 +1,34 @@
+[
+  {
+    "id": "my-plan",
+    "title": "Мой Word-план",
+    "file": "sources/study-plan.docx",
+    "weeks": 56,
+    "items": 388,
+    "routes": 168,
+    "outcomes": 56,
+    "note": "Календарная основа 07.09.2026—03.10.2027. Дневное распределение рассчитано из недельных списков."
+  },
+  {
+    "id": "yandex",
+    "title": "Яндекс Практикум",
+    "file": "sources/yandex-course.zip",
+    "pages": 92,
+    "lessons": 91,
+    "practices": 24,
+    "quizzes": 252,
+    "videos": 5,
+    "note": "Снимки 2024 года. Исторические ответы, пароли и токены не перенесены в интерфейс."
+  },
+  {
+    "id": "roadmap",
+    "title": "Roadmap Просто DevOps",
+    "file": "sources/roadmap.pdf",
+    "sections": 8,
+    "subtopics": 49,
+    "items": 437,
+    "videos": 21,
+    "links": 3,
+    "note": "PDF из одной большой страницы; очищенные единицы сопоставлены с общей таксономией."
+  }
+]
